@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Atico_API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d0214ac0d4e5b7e54332b23a7a3b6cba22c6249a")]
 [assembly: System.Reflection.AssemblyProductAttribute("Atico_API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Atico_API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
