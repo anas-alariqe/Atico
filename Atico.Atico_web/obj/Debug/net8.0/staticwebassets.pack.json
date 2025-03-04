@@ -1,0 +1,537 @@
+{
+  "Files": [
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Atico.Atico_web.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Atico.Atico_web.bundle.scp.css"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\ALHUTHAILI.png",
+      "PackagePath": "staticwebassets\\ALHUTHAILI.png"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\About.js",
+      "PackagePath": "staticwebassets\\About.js"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\About_Assets\\ACHIEVEMENTS.svg",
+      "PackagePath": "staticwebassets\\About_Assets\\ACHIEVEMENTS.svg"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\About_Assets\\Cartific-1.jpg",
+      "PackagePath": "staticwebassets\\About_Assets\\Cartific-1.jpg"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\About_Assets\\Cartific-2.jpg",
+      "PackagePath": "staticwebassets\\About_Assets\\Cartific-2.jpg"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\About_Assets\\Cartific-3.jpg",
+      "PackagePath": "staticwebassets\\About_Assets\\Cartific-3.jpg"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\About_Assets\\Client-1.jpg",
+      "PackagePath": "staticwebassets\\About_Assets\\Client-1.jpg"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\About_Assets\\Client-1@0.5x.jpg",
+      "PackagePath": "staticwebassets\\About_Assets\\Client-1@0.5x.jpg"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\About_Assets\\Client-2.jpg",
+      "PackagePath": "staticwebassets\\About_Assets\\Client-2.jpg"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\About_Assets\\Client-3.jpg",
+      "PackagePath": "staticwebassets\\About_Assets\\Client-3.jpg"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\About_Assets\\Client-4.jpg",
+      "PackagePath": "staticwebassets\\About_Assets\\Client-4.jpg"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\About_Assets\\Client-5.jpg",
+      "PackagePath": "staticwebassets\\About_Assets\\Client-5.jpg"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\About_Assets\\Client-6.jpg",
+      "PackagePath": "staticwebassets\\About_Assets\\Client-6.jpg"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\About_Assets\\GOALS.svg",
+      "PackagePath": "staticwebassets\\About_Assets\\GOALS.svg"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\About_Assets\\VALUES.svg",
+      "PackagePath": "staticwebassets\\About_Assets\\VALUES.svg"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\About_Assets\\VISION.svg",
+      "PackagePath": "staticwebassets\\About_Assets\\VISION.svg"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\About_Assets\\about_us_Hero.jpg",
+      "PackagePath": "staticwebassets\\About_Assets\\about_us_Hero.jpg"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\About_Assets\\about_us_Hero@0.5x.jpg",
+      "PackagePath": "staticwebassets\\About_Assets\\about_us_Hero@0.5x.jpg"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\About_Assets\\about_us_Hero@0.75x.jpg",
+      "PackagePath": "staticwebassets\\About_Assets\\about_us_Hero@0.75x.jpg"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\Atico_Logo_Wide.jpg",
+      "PackagePath": "staticwebassets\\Atico_Logo_Wide.jpg"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\Atico_logo.jpg",
+      "PackagePath": "staticwebassets\\Atico_logo.jpg"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\Companies\\Atico.jpg",
+      "PackagePath": "staticwebassets\\Companies\\Atico.jpg"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\Companies\\Atico_Agriculture.jpg",
+      "PackagePath": "staticwebassets\\Companies\\Atico_Agriculture.jpg"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\Companies\\Atico_Food.jpg",
+      "PackagePath": "staticwebassets\\Companies\\Atico_Food.jpg"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\Companies\\Atico_Pharma.jpg",
+      "PackagePath": "staticwebassets\\Companies\\Atico_Pharma.jpg"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\Companies\\Atico_Power.jpg",
+      "PackagePath": "staticwebassets\\Companies\\Atico_Power.jpg"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\Contact_Us\\Contact_Us_Hero_Img.jpg",
+      "PackagePath": "staticwebassets\\Contact_Us\\Contact_Us_Hero_Img.jpg"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\Contact_Us\\Contact_Us_Icons_1.svg",
+      "PackagePath": "staticwebassets\\Contact_Us\\Contact_Us_Icons_1.svg"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\Contact_Us\\Contact_Us_Icons_2.svg",
+      "PackagePath": "staticwebassets\\Contact_Us\\Contact_Us_Icons_2.svg"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\Contact_Us\\Contact_Us_Icons_3.svg",
+      "PackagePath": "staticwebassets\\Contact_Us\\Contact_Us_Icons_3.svg"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\Goals.png",
+      "PackagePath": "staticwebassets\\Goals.png"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\Hero.Img_0001.jpg",
+      "PackagePath": "staticwebassets\\Hero.Img_0001.jpg"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\Hero.Img_0002.jpg",
+      "PackagePath": "staticwebassets\\Hero.Img_0002.jpg"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\Hero.Img_0003.jpg",
+      "PackagePath": "staticwebassets\\Hero.Img_0003.jpg"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\Hero.Img_0004.jpg",
+      "PackagePath": "staticwebassets\\Hero.Img_0004.jpg"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\Inter_Sec_Observer copy.js",
+      "PackagePath": "staticwebassets\\Inter_Sec_Observer copy.js"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\Inter_Sec_Observer.js",
+      "PackagePath": "staticwebassets\\Inter_Sec_Observer.js"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\News\\News_Hero_Img_01.jpg",
+      "PackagePath": "staticwebassets\\News\\News_Hero_Img_01.jpg"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\News\\News_Hero_Img_01@x0.75.jpg",
+      "PackagePath": "staticwebassets\\News\\News_Hero_Img_01@x0.75.jpg"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\News\\News_Section_Oil_0001.jpg",
+      "PackagePath": "staticwebassets\\News\\News_Section_Oil_0001.jpg"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\News\\News_Section_Oil_0002.jpg",
+      "PackagePath": "staticwebassets\\News\\News_Section_Oil_0002.jpg"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\News\\News_Section_Oil_0003.jpg",
+      "PackagePath": "staticwebassets\\News\\News_Section_Oil_0003.jpg"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\News\\News_Section_Oil_0004.jpg",
+      "PackagePath": "staticwebassets\\News\\News_Section_Oil_0004.jpg"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\News_Section_Oil_0001.jpg",
+      "PackagePath": "staticwebassets\\News_Section_Oil_0001.jpg"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\News_Section_Oil_0002.jpg",
+      "PackagePath": "staticwebassets\\News_Section_Oil_0002.jpg"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\News_Section_Oil_0003.jpg",
+      "PackagePath": "staticwebassets\\News_Section_Oil_0003.jpg"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\News_Section_Oil_0004.jpg",
+      "PackagePath": "staticwebassets\\News_Section_Oil_0004.jpg"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\Office_Image.jpg",
+      "PackagePath": "staticwebassets\\Office_Image.jpg"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\Office_Image.png",
+      "PackagePath": "staticwebassets\\Office_Image.png"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\Pharma.png",
+      "PackagePath": "staticwebassets\\Pharma.png"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\Red_Arrow.svg",
+      "PackagePath": "staticwebassets\\Red_Arrow.svg"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\Service_2.jpg",
+      "PackagePath": "staticwebassets\\Service_2.jpg"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\Service_3.jpg",
+      "PackagePath": "staticwebassets\\Service_3.jpg"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\Service_5.jpg",
+      "PackagePath": "staticwebassets\\Service_5.jpg"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\Services_Assets\\Service_Icon_001.jpg",
+      "PackagePath": "staticwebassets\\Services_Assets\\Service_Icon_001.jpg"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\Services_Assets\\Service_Icon_002.jpg",
+      "PackagePath": "staticwebassets\\Services_Assets\\Service_Icon_002.jpg"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\Services_Assets\\Service_Icon_003.jpg",
+      "PackagePath": "staticwebassets\\Services_Assets\\Service_Icon_003.jpg"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\Services_Assets\\Service_Icon_004.jpg",
+      "PackagePath": "staticwebassets\\Services_Assets\\Service_Icon_004.jpg"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\Services_Assets\\Service_Icon_005.jpg",
+      "PackagePath": "staticwebassets\\Services_Assets\\Service_Icon_005.jpg"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\Services_Assets\\Vector_Down.svg",
+      "PackagePath": "staticwebassets\\Services_Assets\\Vector_Down.svg"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\Services_Assets\\icons services-01.svg",
+      "PackagePath": "staticwebassets\\Services_Assets\\icons services-01.svg"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\Services_Assets\\icons services-02.svg",
+      "PackagePath": "staticwebassets\\Services_Assets\\icons services-02.svg"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\Services_Assets\\icons services-03.svg",
+      "PackagePath": "staticwebassets\\Services_Assets\\icons services-03.svg"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\Services_Assets\\icons services-04.svg",
+      "PackagePath": "staticwebassets\\Services_Assets\\icons services-04.svg"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\Services_Assets\\icons services-05.svg",
+      "PackagePath": "staticwebassets\\Services_Assets\\icons services-05.svg"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\Services_Assets\\icons services-06.svg",
+      "PackagePath": "staticwebassets\\Services_Assets\\icons services-06.svg"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\Services_Assets\\icons services-07.svg",
+      "PackagePath": "staticwebassets\\Services_Assets\\icons services-07.svg"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\Services_Assets\\icons services-08.svg",
+      "PackagePath": "staticwebassets\\Services_Assets\\icons services-08.svg"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\Services_Assets\\icons services-09.svg",
+      "PackagePath": "staticwebassets\\Services_Assets\\icons services-09.svg"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\Services_Assets\\icons services-10.svg",
+      "PackagePath": "staticwebassets\\Services_Assets\\icons services-10.svg"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\Services_Assets\\services_Hero_01.jpg",
+      "PackagePath": "staticwebassets\\Services_Assets\\services_Hero_01.jpg"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\Services_Assets\\services_Hero_02.jpg",
+      "PackagePath": "staticwebassets\\Services_Assets\\services_Hero_02.jpg"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\Services_Assets\\services_Hero_03.jpg",
+      "PackagePath": "staticwebassets\\Services_Assets\\services_Hero_03.jpg"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\TG.png",
+      "PackagePath": "staticwebassets\\TG.png"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\Vector 1.svg",
+      "PackagePath": "staticwebassets\\Vector 1.svg"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\Vector 2.svg",
+      "PackagePath": "staticwebassets\\Vector 2.svg"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\arraw.png",
+      "PackagePath": "staticwebassets\\arraw.png"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\bmw-oil-specifications-type-quality-standards-1200x800.jpg",
+      "PackagePath": "staticwebassets\\bmw-oil-specifications-type-quality-standards-1200x800.jpg"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\btn_left_icon.png",
+      "PackagePath": "staticwebassets\\btn_left_icon.png"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\btn_right_icon.png",
+      "PackagePath": "staticwebassets\\btn_right_icon.png"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\cirecal_img.png",
+      "PackagePath": "staticwebassets\\cirecal_img.png"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\high.png",
+      "PackagePath": "staticwebassets\\high.png"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\img-About-us1.png",
+      "PackagePath": "staticwebassets\\img-About-us1.png"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\img2.png",
+      "PackagePath": "staticwebassets\\img2.png"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\js\\Splide.js",
+      "PackagePath": "staticwebassets\\js\\Splide.js"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\laungage_icon.png",
+      "PackagePath": "staticwebassets\\laungage_icon.png"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\laungage_icon.svg",
+      "PackagePath": "staticwebassets\\laungage_icon.svg"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\logo-02[1].png",
+      "PackagePath": "staticwebassets\\logo-02[1].png"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\main page2-02.png",
+      "PackagePath": "staticwebassets\\main page2-02.png"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\main page2-03.png",
+      "PackagePath": "staticwebassets\\main page2-03.png"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\nav-Products-icon.svg",
+      "PackagePath": "staticwebassets\\nav-Products-icon.svg"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\nav-about-icon.svg",
+      "PackagePath": "staticwebassets\\nav-about-icon.svg"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\nav-contact-icon.svg",
+      "PackagePath": "staticwebassets\\nav-contact-icon.svg"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\nav-news-icon.svg",
+      "PackagePath": "staticwebassets\\nav-news-icon.svg"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\nav-projects-icon.svg",
+      "PackagePath": "staticwebassets\\nav-projects-icon.svg"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\nav-services-icon.svg",
+      "PackagePath": "staticwebassets\\nav-services-icon.svg"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\nav_home-icon.svg",
+      "PackagePath": "staticwebassets\\nav_home-icon.svg"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\pRO.png",
+      "PackagePath": "staticwebassets\\pRO.png"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\products\\Atico_Oil@x0.5.jpg",
+      "PackagePath": "staticwebassets\\products\\Atico_Oil@x0.5.jpg"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\products\\Atico_Oil@x1.jpg",
+      "PackagePath": "staticwebassets\\products\\Atico_Oil@x1.jpg"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\products\\Atico_Oil@x1.svg",
+      "PackagePath": "staticwebassets\\products\\Atico_Oil@x1.svg"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\products\\Atico_Oil@x2.jpg",
+      "PackagePath": "staticwebassets\\products\\Atico_Oil@x2.jpg"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\products\\Battry.jpg",
+      "PackagePath": "staticwebassets\\products\\Battry.jpg"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\products\\GeneisePart.jpg",
+      "PackagePath": "staticwebassets\\products\\GeneisePart.jpg"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\products\\Hmonsa@x1.png",
+      "PackagePath": "staticwebassets\\products\\Hmonsa@x1.png"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\products\\Hmonsa@x1.svg",
+      "PackagePath": "staticwebassets\\products\\Hmonsa@x1.svg"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\products\\Hmonsa@x2.png",
+      "PackagePath": "staticwebassets\\products\\Hmonsa@x2.png"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\products\\Hmonsa@x3.png",
+      "PackagePath": "staticwebassets\\products\\Hmonsa@x3.png"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\products\\MangaTires.svg",
+      "PackagePath": "staticwebassets\\products\\MangaTires.svg"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\products\\Oils.jpg",
+      "PackagePath": "staticwebassets\\products\\Oils.jpg"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\products\\Ravinol_Oil@x0.5.jpg",
+      "PackagePath": "staticwebassets\\products\\Ravinol_Oil@x0.5.jpg"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\products\\Ravinol_Oil@x1.jpg",
+      "PackagePath": "staticwebassets\\products\\Ravinol_Oil@x1.jpg"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\products\\Ravinol_Oil@x1.svg",
+      "PackagePath": "staticwebassets\\products\\Ravinol_Oil@x1.svg"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\products\\Ravinol_Oil@x2.jpg",
+      "PackagePath": "staticwebassets\\products\\Ravinol_Oil@x2.jpg"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\products\\Solar.png",
+      "PackagePath": "staticwebassets\\products\\Solar.png"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\products\\TireBot.svg",
+      "PackagePath": "staticwebassets\\products\\TireBot.svg"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\products\\Tires.jpg",
+      "PackagePath": "staticwebassets\\products\\Tires.jpg"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\search_icon.png",
+      "PackagePath": "staticwebassets\\search_icon.png"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\search_icon.svg",
+      "PackagePath": "staticwebassets\\search_icon.svg"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\service_GeneralTransportation.jpg",
+      "PackagePath": "staticwebassets\\service_GeneralTransportation.jpg"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\site.js",
+      "PackagePath": "staticwebassets\\site.js"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\slide_products.js",
+      "PackagePath": "staticwebassets\\slide_products.js"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\trance.png",
+      "PackagePath": "staticwebassets\\trance.png"
+    },
+    {
+      "Id": "d:\\Ateco\\Atico\\Atico.Atico_web\\wwwroot\\vision.png",
+      "PackagePath": "staticwebassets\\vision.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Atico.Atico_web.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Atico.Atico_web.props",
+      "PackagePath": "build\\Atico.Atico_web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Atico.Atico_web.props",
+      "PackagePath": "buildMultiTargeting\\Atico.Atico_web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Atico.Atico_web.props",
+      "PackagePath": "buildTransitive\\Atico.Atico_web.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

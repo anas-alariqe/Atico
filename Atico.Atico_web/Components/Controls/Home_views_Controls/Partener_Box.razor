@@ -1,0 +1,40 @@
+    <style>
+        .Check_InSection {
+            opacity: 0;
+            transform: translateY(50px);
+            transition: opacity 0.5s ease, transform 1s ease;
+        }
+        .Check_InSection_1 {
+            transform: translateY(60px);
+        }
+        .Check_InSection_2 {
+            transform: translateY(70px);
+        }
+        .Check_InSection_3 {
+            transform: translateY(80px);
+        }
+        .Check_InSection_4 {
+            transform: translateY(90px);
+        }
+        .Check_InSection_5 {
+            transform: translateY(100px);
+        }
+        .Check_InSection.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
+    
+    
+    <div class="col-2 col-md-2 col-sm-3 col-xs-6 p-3 align-content-center justify-content-center @ClassAdded" @onclick()= "" >
+        <div style="background-color: #FFFFFF; border-radius: 5px; padding: 1.3rem;">
+            <img class=" img-thumbnail w-100 h-auto border-0  bg-transparent border-0" src="@Data.Img_Path" alt="" sizes="10rem 10rem" >
+        </div>
+    </div>
+@code{
+    [Parameter]
+    public Partiner Data{get; set;} = new();
+    [Parameter]
+    public string? ClassAdded {get; set;}
+    
+}   

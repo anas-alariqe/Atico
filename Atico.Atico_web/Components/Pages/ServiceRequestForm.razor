@@ -1,0 +1,20 @@
+﻿@using Atico_Shared;
+@code {
+    [Parameter] public int ProductId { get; set; }
+    private Product? product;
+
+    protected override async Task OnInitializedAsync()
+    {
+        // Simulate fetching product data
+        product = new Product { Id = ProductId, Title = "Sample Product", Description = "Sample Description", Price = 99.99m };
+        await Task.Delay(1);
+    }
+}
+
+<h3>Product Details</h3>
+@if (product != null)
+{
+    <p>@product.Title</p>
+    <p>@product.Description</p>
+    <p>@product.Price</p>
+}

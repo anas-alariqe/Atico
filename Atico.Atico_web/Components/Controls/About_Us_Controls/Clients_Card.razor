@@ -1,0 +1,32 @@
+@rendermode InteractiveServer
+@using Atico_Data.Repositories
+@using Atico_Services.Services.Plugins
+@using Atico_Shared.Interfaces
+@using Microsoft.AspNetCore.Mvc
+@inject IViewData_Repository ViewData_Repository
+@inject IViewData_set ViewData_set
+
+<div class=" Check_InSection visible  Clients_Container Client_Card clickible  " >
+    <img src="@Active_Client.Img_Path" class=" h-auto  ">
+</div>
+<div class="w-100 d-flex justify-content-center align-items-center">
+    @foreach(var client in _Clients){
+        
+        <div class=" Check_InSection visible   mt-4 Pointer" style=" justify-self: center; width:1.2rem; height:1.2rem; border: solid 1px #7E7E7E;  border-radius: 50%;   @((Active_Client_id == client.ID)? "background-color: #8E8E8E;": "background-color: inherit;") " @onclick="()=>{Active_Client_id = client.ID; Active_Client = _Clients.Where(e=> e.ID == Active_Client_id).First(); }"></div>
+    } 
+</div>
+
+@code {
+    private string Active_Client_id {get; set;} = "1";
+    [BindProperty]
+    private IViewData_set Active_Client {get; set;} =new ViewObject();
+   
+    public List<IViewData_set> _Clients {get; set;} =new();
+    protected override async  Task OnParametersSetAsync(){
+        _Clients = ( await new ViewData_Repository( new ViewObject_Repository(new ViewObject()  )).GetAll_StarAsync());
+        Active_Client_id =_Clients[0].ID;
+        Active_Client = _Clients[0];
+        
+
+    }
+}     

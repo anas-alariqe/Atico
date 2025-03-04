@@ -1,0 +1,22 @@
+<div class="container-fluid w-100 my-5 px-3 ">
+    <div class="w-100 d-flex align-items-center justify-content-start">
+        <img class=" Check_InSection visible  img-thumbnail h-auto border-0  " src="@_Active_About.Img_Path" alt="" style=" max-width: 200px; background-color: transparent; width: 10em; height: auto;" >
+        <h2 class=" Check_InSection visible  About_Title title mx-2   " style="
+                        color:#DD2020;
+                        font-size: large;
+                        text-align: center;
+                        font-family: 'Inter'; font-weight: bold;">@_Active_About.Title</h2>    </div>
+    @foreach(var desc in _Active_About.Description_set){
+        <div class=" w-100 my-2 align-content-center justify-content-start">
+            <p class=" Check_InSection visible  text-start text-white ">
+                @desc
+            </p>
+        </div>
+    }
+</div>
+
+
+@code{
+    [Parameter]
+    public ViewObject _Active_About {get; set;} =new();
+}

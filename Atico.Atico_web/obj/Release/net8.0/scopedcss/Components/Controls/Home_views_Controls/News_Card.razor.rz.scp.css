@@ -1,0 +1,61 @@
+div.News_Card[b-detwyj4ec6] {
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    color: #4B4A4A;
+}
+div.News_Card .News_Container[b-detwyj4ec6]{
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #DADADA;
+    border-radius: 20px;
+}
+div.News_Card .News_Title[b-detwyj4ec6]{
+    color: #4B4A4A ;    
+}
+div.News_Card .News_Link[b-detwyj4ec6]{
+    font-size: small;
+    margin-bottom: 1rem;
+    margin-left: 0.5rem;
+    text-align: start;
+    text-decoration: underline;
+     color: #7D7272 ;
+}
+/*
+.Check_InSection {
+    opacity: 0;
+    transform: translateY(30vh);
+    transition: opacity 0.5s ease, transform 1s ease;
+}
+.Check_InSection_1 {
+    transform: translateY(35vh);
+}
+.Check_InSection_2 {
+    transform: translateY(40vh);
+}
+.Check_InSection_3 {
+    transform: translateY(45vh);
+}
+.Check_InSection_4 {
+    transform: translateY(50vh);
+}
+.Check_InSection_5 {
+    transform: translateY(55vh);
+}
+.Check_InSection_x{
+    transform: translateX(100%);
+}
+.Check_InSection.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+.clickible{
+    cursor: pointer;
+    transform: translateY(0px);
+    transition: transform 0.5s ease   ;
+  }
+  .clickible:hover{
+    transform: translateY(-10px);
+  }
+  .clickible:hover .title{
+    color: #DD2020 !important;
+  }
+    */

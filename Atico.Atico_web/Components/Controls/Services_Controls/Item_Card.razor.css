@@ -1,0 +1,39 @@
+.Section_item_Card{
+    border-radius: 15px;
+    background-color: #ffffff ;
+    padding: 0.5em ;
+    padding-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    min-height: 15vh;
+    height: 30vh;
+    display: flex;
+    flex-wrap:  wrap;
+}
+.Section_item_Card.active{
+    border: solid 1px #E91F1F;
+}
+.Section_item_Card:hover{
+    border: solid 1px #E91F1F;
+}
+.Item_Icon{
+    max-height: 50%;
+    height: 50%;
+    width: auto;
+    object-fit: cover;
+    background-color: inherit;
+    border: none;
+    margin-bottom: 10%;
+}
+.Item_Label{
+    width: 90%;
+    max-width: 90%;
+    max-height: 30%;
+    color: #929292;
+    font-size: small;
+    font-family: 'Inter';
+    text-align: center;
+    text-wrap: wrap;
+}

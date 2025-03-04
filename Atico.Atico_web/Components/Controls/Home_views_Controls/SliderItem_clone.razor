@@ -1,0 +1,30 @@
+@inject NavigationManager NavigationManager
+
+<div role="tabpanel" data-info="@product.Name"  class="@ClassAdded" id="@ItemId" aria-roledescription="slide" aria-label="@Label" style="width: calc(33.3333%);" aria-hidden="true">
+    <img src="@product.Prod_Star_img_path" loading="lazy" alt="" sizes="(max-width: 767px) 88vw, 30vw" srcset="@product.Prod_Star_img_path 500w, @product.Prod_Star_img_path 800w, @product.Prod_Star_img_path 1080w, @product.Prod_Star_img_path 1333w" class="splide__img">
+</div>
+
+@code{
+    [Parameter]
+    public Atico_Shared.UseCase.product_star_preInfo product {get; set;} =new();
+    [Parameter]
+    public int OrderId {get; set;}
+    [Parameter]
+    public int Count {get; set;}
+    [Parameter]
+    public bool isDownClone{get; set;} =false;
+    
+    string ClassAdded  => "splide__slide w-dyn-item "+ " splide__slide--clone " +( OrderId==2 ? " is-active ": "") ;
+    
+    string Label =>  OrderId.ToString() +" of "+ count;
+    string ItemId => "splide01-"+ ("clone"+( isDownClone ? (OrderId-1).ToString().PadLeft(2,'0') : (OrderId+Count).ToString().PadLeft(2,'0') ));
+
+    string orderid => OrderId.ToString().PadLeft(2,'0'); 
+    string count => Count.ToString(); 
+
+    public async Task select_Item_async(EventArgs e){
+        await Task.Run(() =>{
+             NavigationManager.NavigateTo("/Dynamic/ProductDetails?ProductId="+product.Id+"");
+         });    
+    }
+}        

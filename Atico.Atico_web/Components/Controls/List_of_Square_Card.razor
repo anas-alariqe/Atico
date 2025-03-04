@@ -1,0 +1,77 @@
+@using Atico_Shared;
+@using Atico_Shared.Interfaces
+<div class="News-Box container row w-100 py-0 px-0 justify-content-evenly align-items-center  " style="justify-self: center !important;" >
+     @foreach (var view in _Views ?? new()){
+        <div class=" clickible col-3 col-md-3 col-sm-4 col-xs-6 align-content-center justify-content-center" @onclick="async() => await SelectItem(view)">
+            <Card_t_Img_m_Title_b_Description   Data_Set="@view"  ></Card_t_Img_m_Title_b_Description>
+        </div>
+     }
+      
+     
+</div>
+@if(Has_Multi_Desciptions_Imgs){
+    <div>
+        <Card_t_Img_m_Title_b_Description   Data_Set="@Active_View" Has_Multi_Desciptions="true"  ></Card_t_Img_m_Title_b_Description>
+    </div>
+}
+
+@code{
+    [Parameter]
+    public EventCallback<IViewData_set> OnItemSelected { get; set; }
+    [Parameter]
+    public bool Has_Multi_Desciptions_Imgs{get; set;} = false;
+    private string Active_View_id {get; set;} = "1";
+
+    [Parameter]
+    public IViewData_set Active_View {get; set;} =new News();
+   
+    [Parameter]
+    public List<IViewData_set>? _Views {get; set;} 
+    protected override  void OnParametersSet(){
+        if(_Views is null ){
+            _Views = new() {
+                new News(1, "NewsTitle", "News_Section_Oil_0001.jpg",""),
+                new News(2, "NewsTitle", "News_Section_Oil_0002.jpg",""),
+                new News(4, "NewsTitle", "News_Section_Oil_0004.jpg",""),
+                new News(3, "NewsTitle", "News_Section_Oil_0003.jpg","")
+            };
+            Active_View = _Views[0];
+            if(Has_Multi_Desciptions_Imgs){
+                Active_View.Description_set = new(){
+                "News Description 1",
+                "News Description 2",
+                "News Description 3",
+                "News Description 4"
+                };
+                Active_View.Img_Path_set = new(){
+                    Active_View.Img_Path,
+                    Active_View.Img_Path,
+                    Active_View.Img_Path,
+                    Active_View.Img_Path
+                };
+            }
+            
+            Active_View_id = Active_View.ID;
+        }
+    }
+    private async Task SelectItem(IViewData_set item)
+    {
+        Active_View = item;
+        if(Has_Multi_Desciptions_Imgs){
+            Active_View.Description_set = new(){
+            "News Description 1",
+            "News Description 2",
+            "News Description 3",
+            "News Description 4"
+            };
+            Active_View.Img_Path_set = new(){
+                Active_View.Img_Path,
+                Active_View.Img_Path,
+                Active_View.Img_Path,
+                Active_View.Img_Path
+            };
+        }
+        Active_View_id = item.ID;
+        await OnItemSelected.InvokeAsync(item);
+    }
+}   

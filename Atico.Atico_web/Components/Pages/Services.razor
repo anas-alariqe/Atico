@@ -1,0 +1,47 @@
+@page "/Services"
+@rendermode InteractiveServer
+@using Atico.Atico_web.Components.Controls.Services_Controls
+
+<PageTitle>ATICO Services</PageTitle>
+<section id ="Srv_Hero_Section" class="Hero p-0 ">
+    <div class="Hero_Continer w-75 h-75 row m-0 p-0">
+        <div class="h-100 col-5 col-lg-5 col-md-4 col-sm-12 col-xs-12 order-0 order-lg-0 order-sm-1 align-content-center justify-content-center p-xs-1 p-sm-2 p-md-3 p-lg-4 p-4">
+            <div class="d-flex flex-wrap">
+                <h1 class="Hero_title"> Discover What We <br> Can Offer You</h1>
+                <a class="Hero_Link" href="Services//#Srv_Sections_Section">Browse Atico Services</a>
+            </div>
+        </div>
+        <div class="h-100 col-7 col-lg-7 col-md-8 col-sm-12 col-xs-12 order-1 order-lg-1 order-sm-0 row">
+            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 col-4 px-3 mb-5 " >
+                <img src="Services_Assets//services_Hero_01.jpg" class=" Hero_Img  ">
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 col-4 px-3 mt-5" >
+                <img src="Services_Assets//services_Hero_02.jpg" class=" Hero_Img  ">
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 col-4 hidden visible-md visible-lg px-3 mb-5 " >
+                <img src="Services_Assets//services_Hero_03.jpg" class=" Hero_Img  ">
+            </div>
+        </div>
+    </div>
+    
+</section>
+<section id="Srv_Sections_Section" class="d-flex w-100 justify-content-center align-content-center align-items-center">
+    <div class="Srv_Continer  flex-wrap">
+
+        <div class="w-100 d-flex  py-5 justify-content-center align-content-center align-items-center" style="background-color: #4B4A4A;">
+            <div class="Section_head ">
+                <img src="logo-02[1].png" class="Section_head_icon img-thumbnail">
+                <h2 class="Section_head_label"> Everything You Need Will Go Easy  </h2>        
+            </div>
+        </div>
+        
+        <div class="w-100  ">
+            <Gallery_BySections  type="@typeof(Service_Section)"></Gallery_BySections>
+        </div>
+    </div>
+    
+</section>
+
+@code{
+
+}

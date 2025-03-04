@@ -1,0 +1,52 @@
+﻿@page "/news"
+@rendermode InteractiveServer
+@using Atico_Shared
+@using Atico_Shared.Interfaces
+@using Microsoft.AspNetCore.Mvc
+@using Atico.Atico_web.Components.Controls.About_Us_Controls
+@using Atico.Atico_web.Components.Controls.Home_views_Controls
+
+<PageTitle>ATICO News</PageTitle>
+
+<div class="page">
+    <section id ="Hero_Section" class="Hero p-0">
+        <div class="Hero_Continer w-100 h-100 position-absolute top-0 left-0 m-0 p-0">
+            <Multi_Imgs_Card></Multi_Imgs_Card> 
+        </div>
+    </section>
+<section id ="News_Section" class=" container-fluid justify-content-center align-items-center text-center py-5 px-2">
+  <div class="News_Container">
+    <div class=" container-fluid justify-content-center align-items-center text-center mt-4">
+      <h2 class="Section_title">Latest News</h2>
+    </div>
+    <List_of_Square_Card _Views="@_News" Has_Multi_Desciptions_Imgs="@true"></List_of_Square_Card>
+  </div>
+</section>
+
+  
+    
+</div>
+@code {
+    private int Active_News_id {get; set;} = 1;
+    [BindProperty]
+    private IViewData_set Active_News {get; set;}=new News();
+    public List<IViewData_set>? _News {get; set;} 
+    
+    protected override void OnParametersSet(){
+        
+        _News = new() {
+            new News(1, "NewsTitle", "News_Section_Oil_0001.jpg",""),
+            new News(2, "NewsTitle", "News_Section_Oil_0002.jpg",""),
+            new News(4, "NewsTitle", "News_Section_Oil_0004.jpg",""),
+            new News(3, "NewsTitle", "News_Section_Oil_0003.jpg",""),
+            new News(1, "NewsTitle", "News_Section_Oil_0001.jpg",""),
+            new News(2, "NewsTitle", "News_Section_Oil_0002.jpg",""),
+            new News(4, "NewsTitle", "News_Section_Oil_0004.jpg",""),
+            new News(3, "NewsTitle", "News_Section_Oil_0003.jpg","")
+        };
+        Active_News = _News[0];
+        Active_News_id = Active_News.Id;
+    }
+
+}
+    

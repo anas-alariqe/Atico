@@ -1,0 +1,96 @@
+@using Atico_Data.Repositories
+@using Atico_Services.Services.Plugins
+@using Atico_Shared.Interfaces
+@using Microsoft.AspNetCore.Mvc
+@inject IViewData_Repository ViewData_Repository
+@inject IViewData_set ViewData
+
+
+<div class="w-100 h-auto d-flex flex-wrap justify-content-center align-content-center align-items-center">
+    <div class="w-100 d-flex justify-content-center align-content-center" style=" background-color: #4B4A4A;">
+        <div class="w-75 mt-2 mb-5 justify-content-center align-content-center" >
+            <Gallery OnItemSelected="@( async(IViewData_set selectedItem)=>  { await HandleItemSelected(selectedItem); })" Items="@Sections" Active_Item="@Active_Section"></Gallery>
+            <h2 class="Title_hidden_Lable mb-5">Click One, For More Choises</h2>
+        </div>
+    </div>
+    <div class="w-75 mt-2 mb-5 justify-content-center align-content-center" >
+        <h2 role="status" class="Choise_Name my-5">@Active_Section.Title</h2>
+        <Gallery OnItemSelected="HandleItemSelected2" Items="@Items" Active_Item="@Active_Item"></Gallery>
+        <div class=" d-flex flex-wrap mt-5 container-fluid row w-100 mb-3 justify-content-center align-content-center">
+            <div class="Item_Title_Container mt-5 h-100 col-xs-12 col-sm-4 col-md-4 col-lg-3 col-3  border-end-1 align-content-center justify-content-center  ">
+                <h1 role="status" class=" w-75 Item_Title my-5">@Active_Item.Title</h1>
+            </div>
+            <div class="Item_Description_Container h-100 col-xs-12 col-sm-8 col-md-8 col-lg-9 col-9   align-content-center justify-content-center  ">
+                <ul class=" w-75 Item_Description my-5">
+                    @foreach(var desc in Active_Item.Description_set){
+                        <li role="status" class=" Item_Description my-1">@desc</li>
+                    }
+                </ul>
+                
+                    
+            </div>
+            
+        </div>
+    </div>
+
+</div>
+
+@code{
+    [Parameter]
+    public Type type {get; set;} = typeof(Service_Section);
+    private string Active_Section_id {get {return Active_Section.ID;} set{}} 
+    [BindProperty]
+    private IViewData_set Active_Section {get; set;} =new Service_Section();
+    
+    public List<IViewData_set> Sections{get; set;} = new();
+    private string Active_Item_id {get {return Active_Item.ID;} set{}} 
+    [BindProperty]
+    private IViewData_set Active_Item {get; set;} =new Service();
+    public List<IViewData_set> Items{get; set;} = new();
+    protected override async  Task OnParametersSetAsync(){
+        if(type == typeof(Service_Section)){
+            Sections = ( await new ViewData_Repository( new Service_Section_Repository(new Service_Section()  )).GetAll_StarAsync());
+        }
+        else if(type == typeof(Product_Section)){
+            // Set Up as  Product_Section_Repo
+            Sections = ( await new ViewData_Repository( new Product_Section_Repository(new Product_Section()  )).GetAll_StarAsync());
+        }
+        else{
+
+        }
+       
+        Active_Section = Sections[0];
+        if(type == typeof(Service_Section)){
+            Items = ( await new ViewData_Repository( new Service_Section_Repository(new Service()  )).GetAll_Items_InSectionAsync(Active_Section));
+        }
+        else if(type == typeof(Product_Section)){
+            // Set Up as  Product_Section_Repo
+            Items = ( await new ViewData_Repository( new Product_Section_Repository(new Product()  )).GetAll_Items_InSectionAsync(Active_Section));
+        }
+        else{
+
+        }
+
+    }
+    private async Task  HandleItemSelected(IViewData_set selectedItem)
+    {
+        Active_Section = selectedItem;
+        if(type == typeof(Service_Section)){
+            Items =  await  new ViewData_Repository( new Service_Section_Repository(new Service()  )).GetAll_Items_InSectionAsync(selectedItem);
+            Active_Item = (Items?.Count>0 )? Items[0] : new Service() ;
+        }
+        else if(type == typeof(Product_Section)){
+            // Set Up as  Product_Section_Repo
+            Items =  await  new ViewData_Repository( new Product_Section_Repository(new Product()  )).GetAll_Items_InSectionAsync(selectedItem);
+            Active_Item = (Items?.Count>0 )? Items[0] : new Product() ;
+
+        }
+        else{
+
+        }      
+    }
+    private void  HandleItemSelected2(IViewData_set selectedItem)
+    {
+        Active_Item = selectedItem;
+    }
+}

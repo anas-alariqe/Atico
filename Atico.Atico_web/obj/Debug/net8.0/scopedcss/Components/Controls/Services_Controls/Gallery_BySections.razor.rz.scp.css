@@ -1,0 +1,52 @@
+.Title_hidden_Lable[b-dz27adyo8c]{
+    font-size: large;
+    font-family: 'Inter';
+    text-align: center;
+    font-weight: bold;
+    color:  #777777    ; 
+}
+.Choise_Name[b-dz27adyo8c]{
+    font-size: x-large;
+    text-align: center;
+    font-family: 'Inter';
+    font-weight: bold;
+    color:  #E91F1F    ; 
+    
+}
+
+.Item_Title_Container[b-dz27adyo8c]{
+    border-right: solid .5em #E91F1F ;
+    border-bottom: none ;
+    height: fit-content;
+}
+.Item_Title_Container .Item_Title[b-dz27adyo8c]{
+    color: #E91F1F !important;
+    font-size: 1.6em;
+    font-family: 'Inter';
+    text-align: center;
+    text-wrap: wrap;
+}
+.Item_Description_Container[b-dz27adyo8c]{
+    height: 100%;
+
+}
+.Item_Description_Container .Item_Description[b-dz27adyo8c]{
+    color: #4B4A4A;
+    font-size: 1em;
+    font-family: 'Inter';
+    text-align: center;
+    text-wrap: wrap;
+    list-style-type: circle;
+}
+
+@media (min-width <= 620){
+    .Item_Title_Container[b-dz27adyo8c]{
+        border-bottom: solid .5em #E91F1F ;
+        border-right: none ;
+    }
+}
+@media (min-width: 620px) {
+    .Choise_Name[b-dz27adyo8c]{
+        margin-bottom: 3em;        
+    }
+}

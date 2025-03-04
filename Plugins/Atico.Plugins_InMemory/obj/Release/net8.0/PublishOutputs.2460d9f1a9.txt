@@ -1,0 +1,3 @@
+D:\Ateco\Atico\publish\Atico.Plugins_InMemory.dll
+D:\Ateco\Atico\publish\Atico.Plugins_InMemory.deps.json
+D:\Ateco\Atico\publish\Atico.Plugins_InMemory.pdb

@@ -1,0 +1,26 @@
+@using Atico_Shared
+
+<div class="px-2 py-1 justify-content-center align-content-center" style="flex-wrap: wrap; display: flex; color:#545454;">
+    <img class=" img-thumbnail w-50 h-auto border-0  " src="@Image" alt="" style=" background-color: inherit;" >
+    <h2 class="w-100 About_Title title   " style="
+            font-size: large;
+            text-align: center;
+            font-family: 'Inter'; font-weight: bold;">@Title</h2>
+    <p class="w-100" style="
+            font-size: small;
+            text-align: center;
+            font-family: 'Inter'; ">
+        @Data
+    </p>
+
+</div>
+
+
+@code{
+    [Parameter]
+    public string Title {get; set;} ="";
+    [Parameter]
+    public string Image {get; set;} ="";
+    [Parameter]
+    public string Data {get; set;} ="";
+}

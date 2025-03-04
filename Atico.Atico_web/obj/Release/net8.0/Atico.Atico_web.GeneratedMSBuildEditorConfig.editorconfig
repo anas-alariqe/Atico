@@ -1,0 +1,199 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Atico.Atico_web
+build_property.RootNamespace = Atico.Atico_web
+build_property.ProjectDir = D:\Ateco\Atico\Atico.Atico_web\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Ateco\Atico\Atico.Atico_web
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Ateco/Atico/Atico.Atico_web/Components/App.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ateco/Atico/Atico.Atico_web/Components/Controls/About_Us_Controls/About_Choice_Card.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb250cm9sc1xBYm91dF9Vc19Db250cm9sc1xBYm91dF9DaG9pY2VfQ2FyZC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ateco/Atico/Atico.Atico_web/Components/Controls/About_Us_Controls/About_Info_Card.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb250cm9sc1xBYm91dF9Vc19Db250cm9sc1xBYm91dF9JbmZvX0NhcmQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ateco/Atico/Atico.Atico_web/Components/Controls/About_Us_Controls/Certifications_Card.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb250cm9sc1xBYm91dF9Vc19Db250cm9sc1xDZXJ0aWZpY2F0aW9uc19DYXJkLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ateco/Atico/Atico.Atico_web/Components/Controls/Contact_Us_Controls/Contact_Us_Card.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb250cm9sc1xDb250YWN0X1VzX0NvbnRyb2xzXENvbnRhY3RfVXNfQ2FyZC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ateco/Atico/Atico.Atico_web/Components/Controls/Home_views_Controls/About_sticky.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb250cm9sc1xIb21lX3ZpZXdzX0NvbnRyb2xzXEFib3V0X3N0aWNreS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ateco/Atico/Atico.Atico_web/Components/Controls/Home_views_Controls/News_Boxes.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb250cm9sc1xIb21lX3ZpZXdzX0NvbnRyb2xzXE5ld3NfQm94ZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ateco/Atico/Atico.Atico_web/Components/Controls/Home_views_Controls/Partener_Box.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb250cm9sc1xIb21lX3ZpZXdzX0NvbnRyb2xzXFBhcnRlbmVyX0JveC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ateco/Atico/Atico.Atico_web/Components/Controls/Home_views_Controls/Partiners_Boxes.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb250cm9sc1xIb21lX3ZpZXdzX0NvbnRyb2xzXFBhcnRpbmVyc19Cb3hlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ateco/Atico/Atico.Atico_web/Components/Controls/Home_views_Controls/Service_Star_box copy.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb250cm9sc1xIb21lX3ZpZXdzX0NvbnRyb2xzXFNlcnZpY2VfU3Rhcl9ib3ggY29weS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ateco/Atico/Atico.Atico_web/Components/Controls/Home_views_Controls/Service_Star_box.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb250cm9sc1xIb21lX3ZpZXdzX0NvbnRyb2xzXFNlcnZpY2VfU3Rhcl9ib3gucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ateco/Atico/Atico.Atico_web/Components/Controls/Home_views_Controls/SliderItem_clone.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb250cm9sc1xIb21lX3ZpZXdzX0NvbnRyb2xzXFNsaWRlckl0ZW1fY2xvbmUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ateco/Atico/Atico.Atico_web/Components/Controls/Home_views_Controls/SliderSection copy.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb250cm9sc1xIb21lX3ZpZXdzX0NvbnRyb2xzXFNsaWRlclNlY3Rpb24gY29weS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ateco/Atico/Atico.Atico_web/Components/Controls/List_of_Square_Card.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb250cm9sc1xMaXN0X29mX1NxdWFyZV9DYXJkLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ateco/Atico/Atico.Atico_web/Components/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDb3VudGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ateco/Atico/Atico.Atico_web/Components/Pages/Dynamic.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xEeW5hbWljLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ateco/Atico/Atico.Atico_web/Components/Pages/Error.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFcnJvci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ateco/Atico/Atico.Atico_web/Components/Pages/PortfolioView.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xQb3J0Zm9saW9WaWV3LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ateco/Atico/Atico.Atico_web/Components/Pages/ProductDetailsView.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xQcm9kdWN0RGV0YWlsc1ZpZXcucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ateco/Atico/Atico.Atico_web/Components/Pages/Products.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xQcm9kdWN0cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ateco/Atico/Atico.Atico_web/Components/Pages/Projects.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xQcm9qZWN0cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ateco/Atico/Atico.Atico_web/Components/Pages/ServiceRequestForm.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xTZXJ2aWNlUmVxdWVzdEZvcm0ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ateco/Atico/Atico.Atico_web/Components/Pages/Weather.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xXZWF0aGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ateco/Atico/Atico.Atico_web/Components/Routes.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSb3V0ZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ateco/Atico/Atico.Atico_web/Components/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xfSW1wb3J0cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ateco/Atico/Atico.Atico_web/Components/Controls/About_Us_Controls/Clients_Card.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb250cm9sc1xBYm91dF9Vc19Db250cm9sc1xDbGllbnRzX0NhcmQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-xujvc8ivhp
+
+[D:/Ateco/Atico/Atico.Atico_web/Components/Controls/Card_t_Img_m_Title_b_Description.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb250cm9sc1xDYXJkX3RfSW1nX21fVGl0bGVfYl9EZXNjcmlwdGlvbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-3muuuwdmbe
+
+[D:/Ateco/Atico/Atico.Atico_web/Components/Controls/Home_views_Controls/News_Card.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb250cm9sc1xIb21lX3ZpZXdzX0NvbnRyb2xzXE5ld3NfQ2FyZC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-detwyj4ec6
+
+[D:/Ateco/Atico/Atico.Atico_web/Components/Controls/Home_views_Controls/Services_Box.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb250cm9sc1xIb21lX3ZpZXdzX0NvbnRyb2xzXFNlcnZpY2VzX0JveC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-38jloip7kt
+
+[D:/Ateco/Atico/Atico.Atico_web/Components/Controls/Home_views_Controls/SliderItem.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb250cm9sc1xIb21lX3ZpZXdzX0NvbnRyb2xzXFNsaWRlckl0ZW0ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-p7yzcykg8f
+
+[D:/Ateco/Atico/Atico.Atico_web/Components/Controls/Home_views_Controls/SliderSection.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb250cm9sc1xIb21lX3ZpZXdzX0NvbnRyb2xzXFNsaWRlclNlY3Rpb24ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-9h0b0wy1a2
+
+[D:/Ateco/Atico/Atico.Atico_web/Components/Controls/Multi_Imgs_Card.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb250cm9sc1xNdWx0aV9JbWdzX0NhcmQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-fth6lcucjq
+
+[D:/Ateco/Atico/Atico.Atico_web/Components/Controls/Services_Controls/Gallery.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb250cm9sc1xTZXJ2aWNlc19Db250cm9sc1xHYWxsZXJ5LnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-9bvhtorw98
+
+[D:/Ateco/Atico/Atico.Atico_web/Components/Controls/Services_Controls/Gallery_BySections.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb250cm9sc1xTZXJ2aWNlc19Db250cm9sc1xHYWxsZXJ5X0J5U2VjdGlvbnMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-dz27adyo8c
+
+[D:/Ateco/Atico/Atico.Atico_web/Components/Controls/Services_Controls/Item_Card.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb250cm9sc1xTZXJ2aWNlc19Db250cm9sc1xJdGVtX0NhcmQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-51h047ee16
+
+[D:/Ateco/Atico/Atico.Atico_web/Components/Controls/Services_Controls/Item_Select_Card.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb250cm9sc1xTZXJ2aWNlc19Db250cm9sc1xJdGVtX1NlbGVjdF9DYXJkLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-wj5vx14jbo
+
+[D:/Ateco/Atico/Atico.Atico_web/Components/Controls/Services_Controls/Select_Gallery.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb250cm9sc1xTZXJ2aWNlc19Db250cm9sc1xTZWxlY3RfR2FsbGVyeS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-hsenbqczh8
+
+[D:/Ateco/Atico/Atico.Atico_web/Components/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTWFpbkxheW91dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-twydqs4mrr
+
+[D:/Ateco/Atico/Atico.Atico_web/Components/Layout/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTmF2TWVudS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-39zc9u5rni
+
+[D:/Ateco/Atico/Atico.Atico_web/Components/Pages/About_Us.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBYm91dF9Vcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-rrdvk1xrwk
+
+[D:/Ateco/Atico/Atico.Atico_web/Components/Pages/Contact_Us.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDb250YWN0X1VzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-fqvehwtpiy
+
+[D:/Ateco/Atico/Atico.Atico_web/Components/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIb21lLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-g5w8lv9cgc
+
+[D:/Ateco/Atico/Atico.Atico_web/Components/Pages/News_Info.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xOZXdzX0luZm8ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-mmjfhr2352
+
+[D:/Ateco/Atico/Atico.Atico_web/Components/Pages/News_Page.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xOZXdzX1BhZ2UucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-xdjjerksl9
+
+[D:/Ateco/Atico/Atico.Atico_web/Components/Pages/Services.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xTZXJ2aWNlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-s6z02z8di0

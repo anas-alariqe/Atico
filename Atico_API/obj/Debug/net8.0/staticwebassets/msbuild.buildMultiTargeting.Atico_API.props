@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Atico_API.props" />
+</Project>

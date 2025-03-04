@@ -1,0 +1,32 @@
+@using Atico_Data.Repositories
+@using Atico_Shared.Interfaces
+@inject IViewData_set  ViewData_set
+<div class="h-100 w-100  flex-wrap row w-100   py-5 px-3 justify-content-between align-items-center  " >
+     @foreach(var carf in _cartific){
+        <div class=" Check_InSection visible  col-3 col-lg-3 col-md-5  col-sm-10  p-1 clickible">
+                <img src="@carf.Img_Path" class=" h-auto  " style="max-width: 100%; object-fit: contain;">
+        </div>  
+     }      
+    
+</div>
+@code{
+    [Parameter]
+    public IViewData_set?  _viewData_set {get; set;}
+    private List<IViewData_set> _cartific {get; set;} = new();
+    protected override async  Task OnParametersSetAsync(){
+        _cartific = ( await new ViewData_Repository( new Cartification_Repos(new Cartification()  )).GetAll_StarAsync());
+        /*
+        _Clients =new List<ViewObject>(){
+            new(1,"UN","About_Assets//Client-1.jpg",""),
+            new(2,"MTN","About_Assets//Client-2.jpg",""),
+            new(3,"Yemen Mobile","About_Assets//Client-3.jpg",""),
+            new(4,"OXFAM","About_Assets//Client-4.jpg",""),
+            new(5,"IBY","About_Assets//Client-5.jpg",""),
+            new(6,"World-Health-Org","About_Assets//Client-6.jpg","")
+
+        };
+        */
+    }
+
+
+} 

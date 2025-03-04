@@ -1,0 +1,23 @@
+<div class="Check_InSection visible  About_Card w-100 col-3 col-md-3 col-sm-4 col-xs-6 p-3 align-content-center align-items-center  justify-content-center "  >
+    <div class="px-2 py-1 justify-content-center align-content-center" style="background-color: #F7F7F7; color:#E91F1F; border-radius: 20px;">
+        <img class=" img-thumbnail w-50 h-auto border-0  " src="@Image" alt="" style=" background-color:  transparent;" >
+        <h2 class="About_Title title   " style="
+                font-size: large;
+                text-align: center;
+                font-family: 'Inter'; font-weight: bold;">@Name</h2>
+
+    </div>
+    <div class=" mt-4 Pointer" style=" justify-self: center; width:2rem; height:2rem; border: solid 1px #098839;  border-radius: 50%;   @(IsActive? "background-color: #098839;": "background-color: inherit;")  "></div>
+
+</div>
+
+
+@code{
+    [Parameter]
+    public string Name {get; set;} =string.Empty;
+    [Parameter]
+    public bool IsActive {get; set;} = false; 
+    [Parameter]
+    public string Image {get; set;} =string.Empty;
+
+}

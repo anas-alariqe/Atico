@@ -1,0 +1,117 @@
+.page[b-rrdvk1xrwk]{
+  background-color: #F5F5F5 !important;
+  font-family: 'Inter';
+}
+
+#Hero_Section[b-rrdvk1xrwk]{
+    display: flex;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    max-height: 100%;
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    font-size: larger;
+    font-family: 'Inter';
+}
+
+#Hero_Section .Hero_Continer[b-rrdvk1xrwk]{
+    display: flex;
+    padding-right: 15%;
+    justify-content: end;
+    align-items: center;
+    z-index: 2;
+    align-content: center;
+}
+
+#Hero_Section .Hero_Continer .Hero_Img[b-rrdvk1xrwk]{
+    max-height: 100% !important;
+    max-width: 100% !important;
+    object-fit: cover;
+}
+
+#Hero_Section .Hero_Continer .Hero_title_Continer[b-rrdvk1xrwk]{
+    display: flex;
+        flex-wrap: wrap;
+        max-width: 20em;
+        width: fit-content;
+        height: auto;
+        padding: 0;
+        margin: 0;
+        text-align: left;
+        border-bottom: solid;
+}
+
+#Hero_Section .Hero_Continer .Hero_title_Continer .Hero_title[b-rrdvk1xrwk]{
+    color: #fff;
+    font-size: -webkit-xxx-large;
+    font-family: 'Inter';
+}
+#About_text_Section[b-rrdvk1xrwk]{
+    height: 100vh;
+    width: 100vw;
+    max-width: 100%;
+    max-height: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+#About_text_Section .Container .about_box_Atico[b-rrdvk1xrwk]{
+    max-width: 67%;
+    text-align: justify;
+    flex-wrap: wrap;
+  }
+  #About_text_Section .Container .about_box_Atico span[b-rrdvk1xrwk]{
+    width: 100%;
+  }
+  #About_text_Section .Container .about_box_Atico a[b-rrdvk1xrwk]{
+    text-decoration: underline;
+    font-size: large;
+    text-align: start;
+    width: 100%;
+    color: #AAAAAA;
+    margin-top: 2rem;
+  }
+  #About_text_Section .Container .about_box[b-rrdvk1xrwk]{
+    display: flex; 
+  }
+  #About_text_Section .Container .about_box span h2[b-rrdvk1xrwk]{
+    color: #EF1C23;
+    font-style: bold;
+    display: inline-block !important;
+    margin: 0 !important;
+  }
+  #About_text_Section .Container .about_box span p[b-rrdvk1xrwk]{
+    display: inline ;
+  }
+  
+  #About_Us[b-rrdvk1xrwk] {
+    background-color: #2D2D2D;
+    border-top-left-radius: 10em;
+    border-top-right-radius: 10em;
+    padding-top: 10%;
+  }
+  #Clients[b-rrdvk1xrwk]{
+    padding-top: 2em;
+    min-height: 80vh;
+  }
+  #Clients .Clients_Container[b-rrdvk1xrwk]{
+    max-width: 100%;
+    max-height: 100%;
+    color: #545454;
+  }
+  #Clients .Clients_P_Container[b-rrdvk1xrwk]{
+    border-left: solid .3em #EF1C23 ;
+  }
+  #Clients .Clients_Link[b-rrdvk1xrwk]{
+    margin-top: 0.1em;
+    text-align: start;
+    justify-self: start;
+    display: block;
+    color: #888888;
+  }
+  

@@ -1,0 +1,154 @@
+@using Microsoft.AspNetCore.Mvc
+
+<!--
+    <Cursor></Cursor>
+-->
+<section id="Product_Section" class=" Check_InSection section is--slider">
+    <div class="slider__wave w-embed">
+        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 804 50.167" enable-background="new 0 0 804 50.167" xml:space="preserve">
+            <path fill="#2D2D2D" d="M804,0v16.671c0,0-204.974,33.496-401.995,33.496C204.974,50.167,0,16.671,0,16.671V0H804z"> </path>
+        </svg>
+    </div>
+    <div class="container is--slider">
+        <div class="splide splide--loop splide--ltr splide--draggable is-active is-initialized" id="splide01" role="region" aria-roledescription="carousel">
+            <div class="splide__arrows splide__arrows--ltr">
+                <button class="splide__arrow splide__arrow--prev" type="button" aria-label="Previous slide" aria-controls="splide01-track">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="40" height="40" focusable="false">
+                        <path d="m15.5 0.932-4.3 4.38 14.5 14.6-14.5 14.5 4.3 4.4 14.6-14.6 4.4-4.3-4.4-4.4-14.6-14.6z"></path>
+                    </svg>
+                </button>
+                <button class="splide__arrow splide__arrow--next" type="button" aria-label="Next slide" aria-controls="splide01-track">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="40" height="40" focusable="false">
+                        <path d="m15.5 0.932-4.3 4.38 14.5 14.6-14.5 14.5 4.3 4.4 14.6-14.6 4.4-4.3-4.4-4.4-14.6-14.6z"></path>
+                    </svg>
+                </button>
+            </div>
+            <div class="splide__track w-dyn-list splide__track--loop splide__track--ltr splide__track--draggable" id="splide01-track" aria-live="polite" aria-atomic="true" style="padding-left: 0px; padding-right: 0px;" aria-busy="false">
+                <div role="presentation" class="splide__list w-dyn-items" id="splide01-list" style="transform: translateX(-2888.8px);">
+                    <!--
+                        @{
+                        int con=1;
+                        foreach ( var prod_star in product_Stars ){
+                            if(con>1){
+                                <SliderItem Id="@prod_star.Id" Label_Name="@prod_star.Name" img_path= "@prod_star.Prod_Star_img_path" OrderId= "@con" Item_Descr="@prod_star.Name" isDownClone=true Count=@(product_Stars.Count+1)  ></SliderItem>
+                            }
+                            con = con+1;
+                        }
+                        con =1;
+                        foreach ( var prod_star in product_Stars ){
+                            if(con==2){
+                                <SliderItem Id="prod_star.Id" Label_Name="@prod_star.Name" img_path= "@prod_star.Prod_Star_img_path" OrderId= "@con" Count=@(product_Stars.Count+1)></SliderItem>
+                            }
+                            con = con+1;
+                        }
+                        con=1;
+                        foreach ( var prod_star in product_Stars ){
+                            if(con< product_Stars.Count-1){
+                                <SliderItem Id="prod_star.Id" Label_Name="@prod_star.Name" img_path= "@prod_star.Prod_Star_img_path" OrderId= "@con"  isUpClone=false Count=@(product_Stars.Count+1) ></SliderItem>
+                            }
+                            con = con+1;
+                        }
+
+                    }
+                    -->
+                    <div role="tabpanel" data-info="Battry" class="splide__slide w-dyn-item splide__slide--clone" id="splide01-clone01" aria-roledescription="slide" aria-label="2 of 7" style="" aria-hidden="true">
+                        <img src="products/Battry.jpg" loading="lazy" alt="" sizes="(max-width: 767px) 88vw, 30vw" srcset="products/Battry.jpg 500w, products/Battry.jpg 800w, products/Battry.jpg 1080w, products/Battry.jpg 1333w" class="splide__img">
+                    </div>
+                    <div role="tabpanel" data-info="Tires" class="splide__slide w-dyn-item splide__slide--clone is-active" id="splide01-clone02" aria-roledescription="slide" aria-label="3 of 7" style="" aria-hidden="true">
+                        <img src="products/Tires.jpg" loading="lazy" alt="" sizes="(max-width: 767px) 88vw, 30vw" srcset="products/Tires.jpg 500w, products/Tires.jpg 800w, products/Tires.jpg 1080w, products/Tires.jpg 1600w" class="splide__img">
+                    </div>
+                    <div role="tabpanel" data-info="Spare Parts" class="splide__slide w-dyn-item splide__slide--clone" id="splide01-clone03" aria-roledescription="slide" aria-label="4 of 7" style="" aria-hidden="true">
+                        <img src="products/GeneisePart.jpg" loading="lazy" alt="" sizes="(max-width: 767px) 88vw, 30vw" srcset="products/GeneisePart.jpg 500w, products/GeneisePart.jpg 800w, products/GeneisePart.jpg 1080w, products/GeneisePart.jpg 1333w" class="splide__img">
+                    </div>
+                    <div role="tabpanel"  data-info="Solar panels" class="splide__slide w-dyn-item splide__slide--clone" id="splide01-clone04" aria-roledescription="slide" aria-label="5 of 7" style="" aria-hidden="true">
+                        <img src="products/Solar.jpg" loading="lazy" alt="" sizes="(max-width: 767px) 88vw, 30vw" srcset="products/GeneisePart.jpg 500w, products/GeneisePart.jpg 800w, products/GeneisePart.jpg 1080w, products/GeneisePart.jpg 1333w" class="splide__img">
+                    </div>
+                <div role="tabpanel" data-info="Oils" class="splide__slide w-dyn-item is-visible is-prev" id="splide01-slide01" aria-roledescription="slide" aria-label="1 of 7" style="">
+                        <img src="products/Oils.jpg" loading="lazy" alt="" sizes="(max-width: 767px) 88vw, 30vw" srcset="products/Oils.jpg 500w, products/Oils.jpg 800w, products/Oils.jpg 1080w, products/Oils.jpg 1333w" class="splide__img">
+                    </div>
+                    <div role="tabpanel" data-info="Battry" class="splide__slide w-dyn-item is-active is-visible" id="splide01-slide02" aria-roledescription="slide" aria-label="2 of 7" style="">
+                        <img src="products/Battry.jpg" loading="lazy" alt="" sizes="(max-width: 767px) 88vw, 30vw" srcset="products/Battry.jpg 500w, products/Battry.jpg 800w, products/Battry.jpg 1080w, products/Battry.jpg 1333w" class="splide__img">
+                    </div>
+                    <div role="tabpanel" data-info="Tires" class="splide__slide w-dyn-item is-visible is-next" id="splide01-slide03" aria-roledescription="slide" aria-label="3 of 7" style="">
+                        <img src="products/Tires.jpg" loading="lazy" alt="" sizes="(max-width: 767px) 88vw, 30vw" srcset="products/Tires.jpg 500w, products/Tires.jpg 800w, products/Tires.jpg 1080w, products/Tires.jpg 1600w" class="splide__img">
+                    </div>
+                    <div role="tabpanel" data-info="Spare Parts" class="splide__slide w-dyn-item" id="splide01-slide04" aria-roledescription="slide" aria-label="4 of 7" style="" aria-hidden="true">
+                        <img src="products/GeneisePart.jpg" loading="lazy" alt="" sizes="(max-width: 767px) 88vw, 30vw" srcset="products/GeneisePart.jpg 500w, products/GeneisePart.jpg 800w, products/GeneisePart.jpg 1080w, products/GeneisePart.jpg 1333w" class="splide__img">
+                    </div>
+                     <div role="tabpanel" data-info="Solar panels" class="splide__slide w-dyn-item" id="splide01-slide05" aria-roledescription="slide" aria-label="5 of 7" style="" aria-hidden="true">
+                        <img src="products/Solar.png" loading="lazy" alt="" sizes="(max-width: 767px) 88vw, 30vw" srcset="products/Solar.png 500w, products/Solar.png 800w, products/Solar.png 1080w, products/Solar.png 1500w" class="splide__img">
+                    </div>
+                    <div role="tabpanel" data-info="Oils" class="splide__slide w-dyn-item splide__slide--clone" id="splide01-clone08" aria-roledescription="slide" aria-label="1 of 7" style="" aria-hidden="true">
+                        <img src="products/Oils.jpg" loading="lazy" alt="" sizes="(max-width: 767px) 88vw, 30vw" srcset="products/Oils.jpg 500w, products/Oils.jpg 800w, products/Oils.jpg 1080w, products/Oils.jpg 1333w" class="splide__img">
+                    </div>
+                    <div role="tabpanel" data-info="Battry" class="splide__slide w-dyn-item splide__slide--clone is-active" id="splide01-clone09" aria-roledescription="slide" aria-label="2 of 7" style="" aria-hidden="true">
+                        <img src="products/Battry.jpg" loading="lazy" alt="" sizes="(max-width: 767px) 88vw, 30vw" srcset="products/Battry.jpg 500w, products/Battry.jpg 800w, products/Battry.jpg 1080w, products/Battry.jpg 1333w" class="splide__img">
+                    </div>
+                    <div role="tabpanel" data-info="Tires" class="splide__slide w-dyn-item splide__slide--clone" id="splide01-clone10" aria-roledescription="slide" aria-label="3 of 7" style="" aria-hidden="true">
+                        <img src="products/Tires.jpg" loading="lazy" alt="" sizes="(max-width: 767px) 88vw, 30vw" srcset="products/Tires.jpg 500w, products/Tires.jpg 800w, products/Tires.jpg 1080w, products/Tires.jpg 1600w" class="splide__img">
+                    </div>
+                    <div role="tabpanel" data-info="Spare Parts" class="splide__slide w-dyn-item splide__slide--clone" id="splide01-clone11" aria-roledescription="slide" aria-label="4 of 7" style="" aria-hidden="true">
+                        <img src="products/GeneisePart.jpg" loading="lazy" alt="" sizes="(max-width: 767px) 88vw, 30vw" srcset="products/GeneisePart.jpg 500w, products/GeneisePart.jpg 800w, products/GeneisePart.jpg 1080w, products/GeneisePart.jpg 1333w" class="splide__img">
+                    </div>
+                    
+                    
+                </div>
+            </div>
+           
+            <ul class="splide__pagination splide__pagination--ltr" role="tablist" aria-label="Select a slide to show">
+                <li role="presentation">
+                    <button class="splide__pagination__page" type="button" role="tab" aria-controls="splide01-slide01" aria-label="Go to slide 1" tabindex="-1"></button>
+                </li>
+                <li role="presentation">
+                    <button class="splide__pagination__page" type="button" role="tab" aria-controls="splide01-slide02" aria-label="Go to slide 2" tabindex="-1"></button>
+                </li>
+                <li role="presentation">
+                    <button class="splide__pagination__page is-active" type="button" role="tab" aria-controls="splide01-slide03" aria-label="Go to slide 3" aria-selected="true"></button>
+                </li>
+                <li role="presentation">
+                    <button class="splide__pagination__page" type="button" role="tab" aria-controls="splide01-slide04" aria-label="Go to slide 4" tabindex="-1"></button>
+                </li>
+                <li role="presentation">
+                    <button class="splide__pagination__page" type="button" role="tab" aria-controls="splide01-slide05" aria-label="Go to slide 5" tabindex="-1"></button>
+                </li>
+                <li role="presentation">
+                    <button class="splide__pagination__page" type="button" role="tab" aria-controls="splide01-slide06" aria-label="Go to slide 6" tabindex="-1"></button>
+                </li>
+                <li role="presentation"><button class="splide__pagination__page" type="button" role="tab" aria-controls="splide01-slide07" aria-label="Go to slide 7" tabindex="-1"></button>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="slider__wave is--bottom w-embed">
+        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 804 50.167" enable-background="new 0 0 804 50.167" xml:space="preserve">
+            <path fill="#2D2D2D" d="M804,0v16.671c0,0-204.974,33.496-401.995,33.496C204.974,50.167,0,16.671,0,16.671V0H804z"></path>
+        </svg>
+    </div>
+    <div class="contianer-fulid  Div_Controlrs w-100 justify-content-center">
+        <div class="Title_Container Check_InSection  ">
+            <h2>Products</h2>
+        </div>
+            
+        <div class="Controlrs_Container d-flex ">
+            <a class="Check_InSection Check_InSection_1 prev_Arrow justify-content-center align-content-center">
+                <img src="Red_Arrow.svg" alt="">
+            </a>
+            <h3 id="Product-Name" class = " clickible Check_InSection Check_InSection_4 Active_Prod_Name text-center justify-content-center" > @Section_Name</h3>
+            <a class=" Check_InSection Check_InSection_2 next_Arrow  justify-content-center align-content-center">
+                <img src="Red_Arrow.svg" alt="">
+            </a>
+
+        </div>
+    </div>
+    
+</section>
+
+@code{
+    protected List<Atico_Shared.UseCase.product_star_preInfo> product_Stars{get; set;} =new();
+    [Parameter]
+    [BindProperty]
+    public string Section_Name {get; set;}="";
+    protected override  void OnParametersSet(){
+        product_Stars = Atico_Services.Services.ViewProduct_Stars.GetAll();
+    }
+}

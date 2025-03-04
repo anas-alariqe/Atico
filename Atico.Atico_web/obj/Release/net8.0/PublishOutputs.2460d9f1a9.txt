@@ -1,0 +1,13 @@
+D:\Ateco\Atico\publish\Atico.Atico_web.exe
+D:\Ateco\Atico\publish\appsettings.Development.json
+D:\Ateco\Atico\publish\appsettings.json
+D:\Ateco\Atico\publish\Atico.Atico_web.dll
+D:\Ateco\Atico\publish\Atico.Atico_web.deps.json
+D:\Ateco\Atico\publish\Atico.Atico_web.runtimeconfig.json
+D:\Ateco\Atico\publish\Atico.Atico_web.pdb
+D:\Ateco\Atico\publish\Atico_Data.dll
+D:\Ateco\Atico\publish\Atico_Services.dll
+D:\Ateco\Atico\publish\Atico_Shared.dll
+D:\Ateco\Atico\publish\Atico_Shared.pdb
+D:\Ateco\Atico\publish\Atico_Services.pdb
+D:\Ateco\Atico\publish\Atico_Data.pdb

@@ -1,0 +1,91 @@
+
+#Srv_Hero_Section{
+    display: flex;
+    width: 100vw;
+    height: 120vh;
+    max-height:200vh;
+    max-width: 100%;
+    align-items: end;
+    align-content: end;
+    justify-content: center;
+    padding-bottom: 10% !important;
+    overflow: hidden;
+}
+
+#Srv_Hero_Section .Hero_Continer{
+    max-height: 100%;
+    max-width: 100%;
+    display: flex;
+    padding-right: 0;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+#Srv_Hero_Section .Hero_Continer .Hero_Img{
+    max-height: 80% !important;
+    max-width: 90% !important;
+    object-fit: cover;
+}
+#Srv_Hero_Section .Hero_Continer .Hero_title{
+    color: #E91F1F;
+    font-size: xx-large;
+    font-family: 'Inter';
+    font-weight: bold;
+}
+#Srv_Hero_Section .Hero_Continer .Hero_Link{
+    color: #4C4C4C;
+    font-size: medium;
+    font-family: 'Inter';
+    font-weight: bold;
+}
+#Srv_Sections_Section{
+    display: flex;
+    width: 100vw;
+    max-height: 300vh;
+    max-width: 100%;
+    align-items: end;
+    align-content: end;
+    justify-content: center;
+    padding-bottom: 10% !important;
+}
+
+
+#Srv_Sections_Section .Srv_Continer{
+    max-height: 100%;
+    max-width: 100%;
+    display: flex;
+    padding-right: 0;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+#Srv_Sections_Section .Srv_Continer .Section_head{
+    background-color: #4C4C4C;
+    padding: 1em 2em;
+    max-height: 20%;
+    max-width: 100%;
+    width: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border-radius: 16px;
+}
+#Srv_Sections_Section .Srv_Continer .Section_head_icon{
+    max-width: 180px;
+    max-height: 50px;
+    background-color: inherit;
+    border: none;
+}
+#Srv_Sections_Section .Srv_Continer .Section_head_label{
+    color: #FFF;
+    font-size: 1.4em;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Inter';
+    margin: 0;
+    margin-left: 2em;
+    text-wrap: nowrap;
+}

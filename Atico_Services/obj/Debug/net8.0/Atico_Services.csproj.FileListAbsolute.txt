@@ -1,0 +1,17 @@
+d:\Ateco\Atico\Atico_Services\bin\Debug\net8.0\Atico_Services.deps.json
+d:\Ateco\Atico\Atico_Services\bin\Debug\net8.0\Atico_Services.dll
+d:\Ateco\Atico\Atico_Services\bin\Debug\net8.0\Atico_Services.pdb
+d:\Ateco\Atico\Atico_Services\bin\Debug\net8.0\Atico_Shared.dll
+d:\Ateco\Atico\Atico_Services\bin\Debug\net8.0\Atico_Shared.pdb
+d:\Ateco\Atico\Atico_Services\obj\Debug\net8.0\Atico_Services.csproj.AssemblyReference.cache
+d:\Ateco\Atico\Atico_Services\obj\Debug\net8.0\Atico_Services.GeneratedMSBuildEditorConfig.editorconfig
+d:\Ateco\Atico\Atico_Services\obj\Debug\net8.0\Atico_Services.AssemblyInfoInputs.cache
+d:\Ateco\Atico\Atico_Services\obj\Debug\net8.0\Atico_Services.AssemblyInfo.cs
+d:\Ateco\Atico\Atico_Services\obj\Debug\net8.0\Atico_Services.csproj.CoreCompileInputs.cache
+d:\Ateco\Atico\Atico_Services\obj\Debug\net8.0\Atico_Se.1797F64C.Up2Date
+d:\Ateco\Atico\Atico_Services\obj\Debug\net8.0\Atico_Services.dll
+d:\Ateco\Atico\Atico_Services\obj\Debug\net8.0\refint\Atico_Services.dll
+d:\Ateco\Atico\Atico_Services\obj\Debug\net8.0\Atico_Services.pdb
+d:\Ateco\Atico\Atico_Services\obj\Debug\net8.0\ref\Atico_Services.dll
+d:\Ateco\Atico\Atico_Services\bin\Debug\net8.0\Atico_Data.dll
+d:\Ateco\Atico\Atico_Services\bin\Debug\net8.0\Atico_Data.pdb

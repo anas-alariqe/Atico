@@ -1,0 +1,5 @@
+D:\Ateco\Atico\publish\Atico_Data.dll
+D:\Ateco\Atico\publish\Atico_Data.deps.json
+D:\Ateco\Atico\publish\Atico_Data.pdb
+D:\Ateco\Atico\publish\Atico_Shared.dll
+D:\Ateco\Atico\publish\Atico_Shared.pdb

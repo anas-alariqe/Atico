@@ -1,0 +1,11 @@
+D:\Ateco\Atico\Atico_Shared\bin\Debug\net8.0\Atico_Shared.deps.json
+d:\Ateco\Atico\Atico_Shared\bin\Debug\net8.0\Atico_Shared.dll
+d:\Ateco\Atico\Atico_Shared\bin\Debug\net8.0\Atico_Shared.pdb
+d:\Ateco\Atico\Atico_Shared\obj\Debug\net8.0\Atico_Shared.GeneratedMSBuildEditorConfig.editorconfig
+d:\Ateco\Atico\Atico_Shared\obj\Debug\net8.0\Atico_Shared.AssemblyInfoInputs.cache
+d:\Ateco\Atico\Atico_Shared\obj\Debug\net8.0\Atico_Shared.AssemblyInfo.cs
+d:\Ateco\Atico\Atico_Shared\obj\Debug\net8.0\Atico_Shared.csproj.CoreCompileInputs.cache
+d:\Ateco\Atico\Atico_Shared\obj\Debug\net8.0\Atico_Shared.dll
+d:\Ateco\Atico\Atico_Shared\obj\Debug\net8.0\refint\Atico_Shared.dll
+d:\Ateco\Atico\Atico_Shared\obj\Debug\net8.0\Atico_Shared.pdb
+D:\Ateco\Atico\Atico_Shared\obj\Debug\net8.0\ref\Atico_Shared.dll

@@ -1,0 +1,45 @@
+﻿@page "/Dynamic/{UseCaseName}"
+
+
+<PageTitle>dynamic</PageTitle>
+
+<h1>dynamic</h1>
+
+@inject IViewTemplateService ViewTemplateService
+@inject NavigationManager Navigation
+
+@code {
+    [Parameter] public string UseCaseName { get; set; } = string.Empty;
+    [Parameter] public Dictionary<string, object>? Parameters { get; set; } = new();
+
+    private Type? componentType;
+
+    protected override async Task OnParametersSetAsync()
+    {
+        var template = await ViewTemplateService.GetTemplateByUseCaseName(UseCaseName) ;
+        if (template != null)
+        {
+            componentType = Type.GetType(template.RazorComponent);
+            // قراءة المعلمات من Query String
+            var query = new Uri(Navigation.Uri).Query;
+            var queryParameters = System.Web.HttpUtility.ParseQueryString(query);
+            int.TryParse(queryParameters["ProductId"], out int productId);
+
+            // إعداد المعلمات
+            Parameters = new Dictionary<string, object>
+            {
+                { "ProductId", productId } // قراءة ProductId من Query String
+            };
+        }
+        }
+    }
+}
+
+@if (componentType != null)
+{
+    <DynamicComponent Type="componentType" Parameters="Parameters" />
+}
+else
+{
+    <p>Component not found for this Use Case: @UseCaseName </p>
+}

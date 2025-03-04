@@ -1,0 +1,138 @@
+﻿@page "/About_Us"
+@rendermode InteractiveServer
+
+@using Microsoft.AspNetCore.Mvc
+@using Atico.Atico_web.Components.Controls.About_Us_Controls
+<PageTitle>About ATICO</PageTitle>
+<div class="page">
+    <section id ="Hero_Section" class="Hero p-0">
+        <div class="Hero_Continer w-100 h-100 position-absolute top-0 left-0 m-0 p-0">
+            <img src="About_Assets//about_us_Hero.jpg" class=" Hero_Img img-fluid w-100 h-auto m-0 p-0" srcset="About_Assets//about_us_Hero@0.5x.jpg 500w, About_Assets//about_us_Hero@0.75x.jpg  800w, About_Assets//about_us_Hero.jpg  1080w, About_Assets//about_us_Hero.jpg 1333w">
+        </div>
+        <div class="Hero_Continer w-100 h-100  ">
+            <div class=" Check_InSection visible  Hero_title_Continer" >
+                <h1 class="Hero_title text-center text-wrap  ">
+                    Everything you want
+                    to know about us  <svg class="" width="25" height="21" viewBox="0 0 25 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M12.5 21L24.1913 0.75H0.808657L12.5 21Z" fill="#E91F1F"/>
+                                    </svg>
+                </h1>
+            </div>
+            
+        </div>
+    </section>
+    <section id ="About_text_Section" class=" container-fluid  d-flex justify-content-center text-center py-6 px-2">
+    <div class="Container w-75 h-50  d-flex flex-wrap row justify-content-center align-items-center w-75">
+        <div class="about_box about_box_Atico  py-2 px-3 col-6  ">
+            <span >
+                <h2 class=" Check_InSection visible " >ATICO </h2>
+                <p class=" Check_InSection visible "  style="display: inline !important;">
+                    Trading & Industry Co. Ltd. is a pioneer in importing of Petroleum Derivatives, and foreign companies Agencies. The company imports & manufactures its own brand of Oils & Lubricants for all types of Vehicle & equipments. It also provides all type of Safety equipments to the market.
+                </p>
+                <p class=" Check_InSection visible  mt-4 d-block" >
+                    The company was founded in 2012. The company is based in Sana’a with branches in most of the governorates of Yemen. It’s considered to be one of the most reputed companies in providing services to oil & gas industries, Governmental & private sectors and humanitarian organizations in the Republic of Yemen. ATICO is distinguished for its extensive range of products & services that cover the requirements of almost all vital Industrial, governmental, and private sectors.
+                </p>
+            </span>
+        </div>
+         <div class="about_box about_box_Atico  py-2 px-3 col-6 h-100   ">
+            <span >
+                <h2></h2>
+                <p class=" Check_InSection visible  d-block" >
+                    ATICO owns ideal Petrol Stations and supplies their clients with comprehensive services that grant their satisfaction. ATICO proved to be a solid company in a time most of the country's companies continue falling where ATICO found its way to overcome all obstacles and rise.
+                </p>
+                <p class=" Check_InSection visible  mt-4 d-block" >
+                    The company also carries out thorough construction operations for sites, building, roads, etc. for all sectors.
+                </p>
+                <p class=" Check_InSection visible  mt-4 d-block" >
+                    The long term of ATICO business success depends on its capability to ensure that HSE remains a top priority for the management & each employee.
+                </p>
+                <p class=" Check_InSection visible  mt-4 d-block" >
+                    ATICO consider safety as the primary guideline in all aspect of business.
+                </p>
+            </span>
+        </div>
+    </div>
+    
+
+    </section>
+    <section id ="About_Us" class=" container-fluid w-100 d-flex justify-content-center text-center py-6 px-2">
+    <div class="About_Us_Container  d-flex  flex-column justify-content-center align-items-center w-75">
+        <div class=" container-fluid justify-content-center align-items-center text-center mt-4 ">
+        <h2 class="w-100 Section_title text-center">KNOW MORE</h2>
+        </div>
+        <div class="About-Choices_Cards   d-flex row w-100 py-5 px-3 justify-content-evenly align-items-center  " style="justify-self: center !important;" >
+            @{int Nos=0;}
+            @foreach(var choic in _About_Choice){
+                <div  id="About_Choice_Card" data-Id="@Nos" class=" col-3 col-lg-3 col-md-3 col-sm-2    " > 
+                    <a class="clickible w-100 h-auto clickible" href="./About_Us#About_Choice_Card" @onclick="()=>{Active_About_id = choic.Id; Active_About = _About_Choice.Where(e=> e.Id == Active_About_id).First(); }" >  
+                        <About_Choice_Card IsActive=@(Active_About_id == choic.Id) Name="@choic.Title" Image="@choic.Img_Path" > </About_Choice_Card>
+
+                    </a>
+                </div>
+                Nos++;
+            }  
+        </div>
+        <div id="About_Info_Card" class="container-fluid w-75 ">
+            <About_Info_Card _Active_About=@Active_About    ></About_Info_Card>
+        </div>
+    </div>
+    
+
+    </section>
+    <section id ="Clients" class=" container-fluid w-100 d-flex justify-content-center text-center py-6 px-2">
+    <div class=" h-100   justify-content-center align-items-center w-75">
+        <div class=" container-fluid justify-content-center align-items-center text-center my-5">
+        <h2 class="w-100 Section_title text-center m-0">OUR CLIENTS</h2>
+        </div>
+        <div class="h-100 w-100  flex-wrap row w-100  py-5 px-3 justify-content-around  align-items-center  " style="justify-self: center !important;" >
+            <div class=" col-5 col-md-5 col-lg-5 col-sm-10 h-100  p-1 align-content-center align-items-center justify-items-start  justify-content-start ">
+                <div class=" Clients_Container px-2 Clients_P_Container m-1  text-start text-wrap ">
+                    <h2 class=" m-1  ">It Was Dealing , </h2>
+                    <h2 class=" m-1">Then We Became Trusted</h2>
+                </div>
+                <a class="Clients_Link clickible" >How about you try?</a>
+            </div>  
+            <div class=" col-5 col-md-5 col-lg-5 col-sm-10 h-100 p-1">
+                <Clients_Card></Clients_Card>     
+            </div>  
+        </div>
+        
+    </div>
+    
+
+    </section>
+    <section id ="Certifications" class=" container-fluid w-100 d-flex justify-content-center text-center py-6 px-2">
+    <div class=" h-100   justify-content-center align-items-center w-75">
+        <div class=" container-fluid justify-content-center align-items-center text-center my-5">
+        <h2 class="w-100 Section_title text-center m-0">CERTIFICATIONS</h2>
+        </div>
+        <Certifications_Card></Certifications_Card> 
+        
+        
+    </div>
+    
+
+    </section>
+</div>
+@code {
+    private int Active_About_id {get; set;} = 1;
+    [BindProperty]
+    private ViewObject Active_About {get; set;}=new();
+    public List<ViewObject> _About_Choice {get; set;} =new();
+       
+    
+    protected override void OnParametersSet(){
+        _About_Choice = new List<ViewObject>(){
+            new ViewObject(1,"VISION","About_Assets//VISION.svg", new List<string>(){ "To be the drive of development in the country by our swift growth and provision of diverse and sophisticated products and services that supports the progress in the country.", " To be a leading company in providing best quality products & Services at most effective prices that exceeds the maximum expectations & gratification level of our esteemed customers." }),
+            new ViewObject(2,"GOALS","About_Assets//GOALS.svg", new List<string>(){"To expand geographically and globally in the provision of comprehensive services that supports the growth & developments of the country by the use of sophisticated equipments and innovative methods.", " To build & spread good reputation in both country & international market to be a key player in the provision of General and oilfield Services."}),
+            new ViewObject(3,"VALUES","About_Assets//VALUES.svg",new List<string>(){"- To demonstrate integrity and honesty and to take responsibility for all our actions.", "- To adopt teamwork approach to our work and conduct our activities in a safe and environmentally responsible manner while meeting or exceeding our commitments.", "-  Building the company with pride for the future."}),
+            new ViewObject(4,"ACHIEVEMENTS","About_Assets//ACHIEVEMENTS.svg",new List<string>(){"- It was the first company to import Fuel and LPG Vessels to the country during the fuel shortage in 2015-2014.", "- Cooperate in reducing fuel prices to their normal rates after the drastic increase that lasted for months.", "- Supply Fuel to all Water pumps, hospitals and healthcare centers in all 22 governorates of Yemen."})
+        };
+
+        Active_About_id = _About_Choice[0].Id;
+        Active_About = _About_Choice[0];
+
+    }
+
+}
+    

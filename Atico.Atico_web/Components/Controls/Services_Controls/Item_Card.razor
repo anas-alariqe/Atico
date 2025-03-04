@@ -1,0 +1,16 @@
+@using Atico_Shared.Interfaces
+@inject IViewData_set ViewData_set 
+
+
+    <div class="Section_item_Card">
+        <img src="@Item.Img_Path" class="Item_Icon" >
+        <p class="Item_Label">@Item.Title </p>
+    </div>
+
+@code{
+    [Parameter]
+    public IViewData_set Item { get ; set;} = new Service();
+
+    [Parameter]
+    public bool IsActive { get ; set;} = false;
+}  

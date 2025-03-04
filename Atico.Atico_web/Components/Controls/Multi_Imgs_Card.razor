@@ -1,0 +1,40 @@
+@using Atico_Data.Repositories
+@using Atico_Services.Services.Plugins
+@using Atico_Shared.Interfaces
+@using Microsoft.AspNetCore.Mvc
+@inject IViewData_Repository ViewData_Repository
+@inject IViewData_set ViewData_set
+
+<div class=" Client_Card w-100 h-100 position-absolute Check_InSection visible  Clients_Container" >
+    <img src="@Active_View.Img_Path" class=" h-auto  ">
+    
+</div>
+<div class="w-100 h-auto align-self-end d-flex justify-content-center align-items-center">
+    @foreach(var view in _views){    
+        <div class="Pointer Check_InSection visible mb-5" style="    @((Active_View_id == view.ID)? "background-color: #FFFFFF;": "background-color: transparent;") " @onclick="()=>{Active_View_id = view.ID; Active_View = _views.Where(e=> e.ID == Active_View_id).First(); }"></div>
+    } 
+</div>
+
+
+@code {
+    private string Active_View_id {get; set;} = "1";
+    [BindProperty]
+    private IViewData_set Active_View {get; set;} =new ViewObject();
+   
+    [Parameter]
+    public List<IViewData_set> _views {get; set;} =new();
+    protected override async  Task OnParametersSetAsync(){
+        await Task.Delay(1);
+        _views = new List<IViewData_set> (){
+            new ViewObject(1,"","News//News_Hero_Img_01.jpg"),
+            new ViewObject(2,"","News//News_Hero_Img_01@x0.75.jpg"),
+            new ViewObject(3,"","News//News_Section_Oil_0001.jpg"),
+        }; 
+            
+        
+        Active_View_id =_views[0].ID;
+        Active_View = _views[0];
+        
+
+    }
+}     

@@ -1,0 +1,15 @@
+d:\Ateco\Atico\Atico_Data\bin\Debug\net8.0\Atico_Data.deps.json
+d:\Ateco\Atico\Atico_Data\bin\Debug\net8.0\Atico_Data.dll
+d:\Ateco\Atico\Atico_Data\bin\Debug\net8.0\Atico_Data.pdb
+d:\Ateco\Atico\Atico_Data\bin\Debug\net8.0\Atico_Shared.dll
+d:\Ateco\Atico\Atico_Data\bin\Debug\net8.0\Atico_Shared.pdb
+d:\Ateco\Atico\Atico_Data\obj\Debug\net8.0\Atico_Data.csproj.AssemblyReference.cache
+d:\Ateco\Atico\Atico_Data\obj\Debug\net8.0\Atico_Data.GeneratedMSBuildEditorConfig.editorconfig
+d:\Ateco\Atico\Atico_Data\obj\Debug\net8.0\Atico_Data.AssemblyInfoInputs.cache
+d:\Ateco\Atico\Atico_Data\obj\Debug\net8.0\Atico_Data.AssemblyInfo.cs
+d:\Ateco\Atico\Atico_Data\obj\Debug\net8.0\Atico_Data.csproj.CoreCompileInputs.cache
+d:\Ateco\Atico\Atico_Data\obj\Debug\net8.0\Atico_Data.csproj.Up2Date
+d:\Ateco\Atico\Atico_Data\obj\Debug\net8.0\Atico_Data.dll
+d:\Ateco\Atico\Atico_Data\obj\Debug\net8.0\refint\Atico_Data.dll
+d:\Ateco\Atico\Atico_Data\obj\Debug\net8.0\Atico_Data.pdb
+d:\Ateco\Atico\Atico_Data\obj\Debug\net8.0\ref\Atico_Data.dll

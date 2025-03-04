@@ -1,0 +1,24 @@
+@using Atico_Shared;
+<div class="News-Box container row w-100 py-0 px-0 justify-content-evenly align-items-center  " style="justify-self: center !important;" >
+     @{ no=0; }
+     @foreach (var news in _News ?? new()){
+        classAdded= " Check_InSection "+(no ==0 ? "": "Check_InSection_"+(no%6).ToString()) +" ";
+        <News_Card Id=@(news.Id) Title="@news.Title" Description="@news.Description" Img_Path="@news.Img_Path" Class_Added = "@classAdded"></News_Card>
+        no =no+ 1 ;
+     }
+      
+     
+</div>
+@code{
+    int no {get; set;} 
+    protected List<News>? _News {get; set;} 
+    string? classAdded {get; set;} 
+     protected override  void OnParametersSet(){
+        _News = new() {
+            new News(1, "NewsTitle", "News_Section_Oil_0001.jpg",""),
+            new News(2, "NewsTitle", "News_Section_Oil_0002.jpg",""),
+            new News(4, "NewsTitle", "News_Section_Oil_0004.jpg",""),
+            new News(3, "NewsTitle", "News_Section_Oil_0003.jpg","")
+        };
+    }
+}

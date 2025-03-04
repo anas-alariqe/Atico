@@ -1,0 +1,65 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Atico.Atico_web/1.0.0": {
+        "dependencies": {
+          "Atico_Data": "1.0.0",
+          "Atico_Services": "1.0.0",
+          "Atico_Shared": "1.0.0"
+        },
+        "runtime": {
+          "Atico.Atico_web.dll": {}
+        }
+      },
+      "Atico_Data/1.0.0": {
+        "dependencies": {
+          "Atico_Shared": "1.0.0"
+        },
+        "runtime": {
+          "Atico_Data.dll": {}
+        }
+      },
+      "Atico_Services/1.0.0": {
+        "dependencies": {
+          "Atico_Data": "1.0.0",
+          "Atico_Shared": "1.0.0"
+        },
+        "runtime": {
+          "Atico_Services.dll": {}
+        }
+      },
+      "Atico_Shared/1.0.0": {
+        "runtime": {
+          "Atico_Shared.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Atico.Atico_web/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Atico_Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Atico_Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Atico_Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

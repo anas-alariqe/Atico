@@ -1,0 +1,59 @@
+.service_box .services_text_box[b-38jloip7kt]{
+    text-align: start !important;
+    display: grid;
+    height: 100%;
+    align-content: space-between;
+    align-items: initial;
+    padding: 1rem !important;
+    max-width: 39.6%;    
+  }
+  .service_box .services_text_box h4[b-38jloip7kt], .service_box .services_text_box a[b-38jloip7kt]{
+    font-family: 'Inter';
+    font-size: 2rem;
+    font-weight: 1000;
+    margin-bottom: 2rem !important;
+  }
+  .service_box .services_text_box p[b-38jloip7kt]{
+    font-family: 'Inter';
+    font-size: 1.6rem !important;
+  }
+  .Out_From_Right[b-38jloip7kt]{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    place-items: center;
+    grid-template-areas: "stack";
+    overflow: hidden;
+    height: 100% !important;
+    width: 100% !important;
+    background-color: #464545;
+  }
+  
+  
+  .Out_From_Right .button-item[b-38jloip7kt] {
+    width: fit-content;
+    justify-self: center;
+    align-self: center;
+    justify-content: space-between;
+    margin: 0.5rem !important;
+    gap: 2rem !important;
+    padding: 0;
+    color: #fff;
+    z-index: 1;
+  }
+  .Out_From_Right .button-item *[b-38jloip7kt]{
+    padding: 0;
+    margin: 0;
+  }
+  .Out_From_Right .button-item a[b-38jloip7kt]{
+    border-radius: 50% !important;
+  }
+  .Out_From_Right .button-item a:hover[b-38jloip7kt]{
+    background-color:#000 !important;
+    cursor:pointer  ;
+  }
+  .Out_From_Right .button-item img[b-38jloip7kt]{
+    max-width: 35px !important;
+    max-height: 35px !important;
+    object-fit:cover;
+  }

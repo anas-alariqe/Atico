@@ -1,0 +1,11 @@
+D:\Ateco\Atico\Plugins\Atico.Plugins_InMemory\bin\Release\net8.0\Atico.Plugins_InMemory.deps.json
+D:\Ateco\Atico\Plugins\Atico.Plugins_InMemory\bin\Release\net8.0\Atico.Plugins_InMemory.dll
+D:\Ateco\Atico\Plugins\Atico.Plugins_InMemory\bin\Release\net8.0\Atico.Plugins_InMemory.pdb
+D:\Ateco\Atico\Plugins\Atico.Plugins_InMemory\obj\Release\net8.0\Atico.Plugins_InMemory.GeneratedMSBuildEditorConfig.editorconfig
+D:\Ateco\Atico\Plugins\Atico.Plugins_InMemory\obj\Release\net8.0\Atico.Plugins_InMemory.AssemblyInfoInputs.cache
+D:\Ateco\Atico\Plugins\Atico.Plugins_InMemory\obj\Release\net8.0\Atico.Plugins_InMemory.AssemblyInfo.cs
+D:\Ateco\Atico\Plugins\Atico.Plugins_InMemory\obj\Release\net8.0\Atico.Plugins_InMemory.csproj.CoreCompileInputs.cache
+D:\Ateco\Atico\Plugins\Atico.Plugins_InMemory\obj\Release\net8.0\Atico.Plugins_InMemory.dll
+D:\Ateco\Atico\Plugins\Atico.Plugins_InMemory\obj\Release\net8.0\refint\Atico.Plugins_InMemory.dll
+D:\Ateco\Atico\Plugins\Atico.Plugins_InMemory\obj\Release\net8.0\Atico.Plugins_InMemory.pdb
+D:\Ateco\Atico\Plugins\Atico.Plugins_InMemory\obj\Release\net8.0\ref\Atico.Plugins_InMemory.dll

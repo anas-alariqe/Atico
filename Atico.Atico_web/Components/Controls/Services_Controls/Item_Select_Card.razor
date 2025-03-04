@@ -1,0 +1,22 @@
+@using Atico_Shared.Interfaces
+@inject IViewData_set ViewData_set 
+
+
+    <div class="Section_item_Card">
+
+        <img  src="@Item.Img_Path" class=" w-100 mx-3 Item_Icon" >
+        <div class="Label_Container w-100 m-0">
+            <p class="Item_Label">@Item.Title </p>
+        </div>
+        <div role="status" class="check_box" style="background-color: #@(IsActive? "009F3C":"E91F1F" )">
+            <img src="Services_Assets//Vector_Down.svg" >
+        </div>
+    </div>
+
+@code{
+    [Parameter]
+    public IViewData_set Item { get ; set;} = new Service();
+
+    [Parameter]
+    public bool IsActive { get ; set;} = false;
+}  

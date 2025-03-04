@@ -1,0 +1,58 @@
+@rendermode InteractiveServer
+@using Microsoft.AspNetCore.Mvc
+
+<div class=" my-1 Out_From_Right justify-content-between align-items-center text-start ">
+    <!-- Background Image -->
+    
+    <div class=" align-start button-item d-flex">
+        <a   @onclick ="Previous">
+            <img src="btn_left_icon.png" alt="left">
+        </a>
+    </div>
+        <Service_Star_box Role="status"  service="@Current_Service"></Service_Star_box>
+    <div class=" align-end button-item d-flex">
+        <a @onclick ="Next">
+            <img src="btn_right_icon.png" alt="right">
+        </a>
+    </div>
+        
+</div>
+
+@code{
+    
+    protected int ServiceId {get; set;} =1;
+
+    public string isDiplay {get; set;} = "";
+    [BindProperty]
+    protected Service Current_Service{get; set;} = new();
+    
+    protected List<Service> _Services {get; set;} =new();
+    protected override  void OnParametersSet(){
+        _Services = new() {
+            new Service("1", "Equipping Gas Stations", "img2.png", "Reliable solutions for fueling station management and operations."),
+            new Service("3", "Logistics Services","Service_2.jpg", ""),
+            new Service("3", "Rental of vehicles & Equipment","Service_3.jpg", ""),
+            new Service("4", "Rental of warehouse & storage facilities", "Service_5.jpg",""),
+            new Service("5", "General Transportation", "service_GeneralTransportation.jpg","")
+        };
+        ServiceId =0;
+        Current_Service = _Services[ServiceId];
+    }
+    protected void Next(){
+        if(ServiceId< _Services.Count-1){
+            ServiceId++;
+            Current_Service = _Services[ServiceId];
+        }
+        else
+            return; 
+    }
+    protected void Previous(EventArgs e){
+        
+        if(ServiceId> 0){
+            ServiceId--;
+            Current_Service = _Services[ServiceId];
+        }
+        else
+            return; 
+    }
+}    

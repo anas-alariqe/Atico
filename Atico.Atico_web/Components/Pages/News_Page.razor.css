@@ -1,0 +1,53 @@
+.page{
+  background-color: #F5F5F5 !important;
+  font-family: 'Inter';
+}
+
+#Hero_Section{
+    display: flex;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    max-height: 100%;
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    font-size: larger;
+    font-family: 'Inter';
+}
+
+#Hero_Section .Hero_Continer{
+    display: flex;
+    padding-right: 15%;
+    justify-content: end;
+    align-items: center;
+    z-index: 2;
+    align-content: center;
+}
+
+#Hero_Section .Hero_Continer .Hero_Img{
+    max-height: 100% !important;
+    max-width: 100% !important;
+    object-fit: cover;
+}
+
+/**/
+/**/
+/* News Section Style*/
+/**/
+/**/
+#News_Section {
+
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  padding-top: 15vh;
+  padding-bottom: 15vh;
+}
+#News_Section  .News_Container{
+  width: fit-content;
+  height: fit-content;
+  justify-content: start;
+  margin: 2rem 0px;
+}

@@ -1,0 +1,21 @@
+@{No = 0;}
+@foreach(var partiner in _Partiners){
+    string classes=(No==0?" Check_InSection ": " Check_InSection Check_InSection_"+(No%6).ToString()+" "    );
+
+    <Partener_Box Data="@partiner" ClassAdded="@classes"></Partener_Box>
+    No++;
+}
+@code{
+    int No =0;
+    protected List<Partiner> _Partiners {get; set;} =new();
+    protected override  void OnParametersSet(){
+        _Partiners = new() {
+            new Partiner("1", "Partiner__1", "pRO.png", "Reliable solutions for fueling station management and operations."),
+            new Partiner("2", "Partiner__2","Pharma.png", "Reliable solutions for fueling station management and operations."),
+            new Partiner("3", "Partiner__3", "ALHUTHAILI.png","Reliable solutions for fueling station management and operations."),
+            new Partiner("4", "Partiner__4", "TG.png","Reliable solutions for fueling station management and operations."), 
+            new Partiner("5", "Partiner__5", "high.png","Reliable solutions for fueling station management and operations."),
+            new Partiner("6", "Partiner__6", "trance.png","Reliable solutions for fueling station management and operations.")        
+        };
+    }
+}

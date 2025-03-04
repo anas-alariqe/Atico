@@ -1,0 +1,76 @@
+@page "/Contact_Us"
+@using Atico.Atico_web.Components.Controls.Contact_Us_Controls
+
+<PageTitle>Contact_Us</PageTitle>
+
+<section id ="Hero_Section" class="Hero p-0 ">
+    <div class="Hero_Continer w-100  position-absolute top-0 left-0 m-0 p-0">
+        <img src="Contact_Us//Contact_Us_Hero_Img.jpg" class=" Hero_Img img-fluid w-100 h-auto m-0 p-0" srcset="Contact_Us//Contact_Us_Hero_Img.jpg 500w, Contact_Us//Contact_Us_Hero_Img.jpg  800w, Contact_Us//Contact_Us_Hero_Img.jpg  1080w, Contact_Us//Contact_Us_Hero_Img.jpg 1333w">
+    </div>
+    
+</section>
+<section id="Contact_Info" class="d-flex w-100 justify-content-center align-content-center align-items-center">
+     <div class="d-flex row w-75 m-0 py-2  justify-content-center">
+            <div class=" col-3 col-lg-3 col-md-3 col-sm-12 col-xs-12 px-4  align-content-center justify-content-center">
+                <h2 style="color: #E91F1F;  font-size: xx-large; text-align: center; font-weight: bold; font-family: 'Inter';" >
+                    GET IN <br> TOUCH
+                </h2>
+            </div>
+            <div class="col-9 col-lg-9 col-md-9 col-sm-12 col-xs-12 row ">
+                <div class="Contact_Box col-4 col-lg-4 col-md-4 col-sm-6 col-xs-6 p-3 align-content-center align-items-center  justify-content-center d-block">
+                    <Contact_Us_Card Title="Locations" Image="Contact_Us//Contact_Us_Icons_1.SVG" Data="@Contacts_Data.Locations.FirstOrDefault("--")"></Contact_Us_Card>
+                </div>
+                <div class="Contact_Box Box_2 col-4 col-lg-4 col-md-4 col-sm-6 col-xs-6 p-3 align-content-center align-items-center  justify-content-center d-block">
+                    <Contact_Us_Card Title="Working Hours" Image="Contact_Us//Contact_Us_Icons_2.SVG" Data="@Contacts_Data.WorkTimes.ToString()"></Contact_Us_Card>
+                </div>
+                <div class="Contact_Box col-4 col-lg-4 col-md-4 col-sm-6 col-xs-6 p-3 align-content-center align-items-center  justify-content-center d-block">
+                    <Contact_Us_Card Title="Communcation" Image="Contact_Us//Contact_Us_Icons_3.SVG" Data="@Contacts_Data.Tel_Num.FirstOrDefault("--")"></Contact_Us_Card>
+                </div>
+            </div>
+        </div>
+    
+</section>
+<section id="Email_Section" class="  d-flex w-100 my-5 justify-content-center align-content-center align-items-center">
+    <div class="w-75 d-flex justify-content-center">
+        <div class=" Em_Container w-75 d-flex row m-0 p-5  align-content-center align-items-center  justify-content-center">
+            <div class="col-7 col-lg-7 col-md-7 col-sm-12 col-xs-12 order-first order-lg-first order-md-first order-sm-last order-xs-last p-5">
+                <EditForm Model="@FormModel" OnValidSubmit="HandleSubmit"  class="Email_Form row" action="submit" method="post">
+                    <DataAnnotationsValidator />
+                    <InputText  id="name" @bind-Value="@FormModel.Customer_Name" class="Email_Form_input col-12 m-2"  placeholder="Your Name"></InputText>
+                    <ValidationMessage For="@(() => FormModel.Customer_Name)" />
+
+                    <InputText id="email" @bind-Value="@FormModel.Email_Account" class="Email_Form_input col-12 m-2" placeholder="Your Email"></InputText>
+                    <InputTextArea id="msg" @bind-Value="@FormModel.Message" class="Email_Form_input col-12 m-2" placeholder="Message"></InputTextArea>
+                    <button type="submit" class="Form_Btn col-12">Send Message</button>
+                </EditForm>
+            </div>
+            <div class="col-5 col-lg-5 col-md-5 col-sm-12 col-xs-12   order-last order-lg-last order-md-last order-sm-first order-xs-first p-4">
+                <p class="w-100"> Have any Qeustion ?</p>
+                <h1 class="w-100" >Contact us</h1>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section id="Map_Section" class="  d-flex w-100 my-5 P-5 justify-content-center align-content-center align-items-center">
+    <div class="d-flex row w-75 m-0 py-2  justify-content-center" style="height: 65vh;">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d385.5149506437449!2d44.25849600165865!3d15.294039110360929!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1603cfe35db0399d%3A0x807ee00d0d46530b!2z2YXYrdi32Kkg2KfZhNit2KvZitmE2Yog2KfZhNmI2LPYt9uMINmE2YTZhdit2LHZiNmC2KfYqkFMX0hBVEhBTEkgTUlEREVMIEdBUyBTVEFUSU9O!5e0!3m2!1sar!2s!4v1740505942179!5m2!1sar!2s"  style="border:0; height: 100%; width: 100%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+</section>
+@code{
+    [Parameter]
+    public Contact_Us_Data Contacts_Data {get; set;} = new Contact_Us_Data(
+        new WorkTime(
+            new TimeOnly(8,0,0), new TimeOnly(16,0,0),  WorkDay_Enum.Work_Day
+        )
+        ,"+967 770 777 000","Al Huthaily Street"
+    );
+    private Email FormModel = new();
+
+    private void HandleSubmit()
+    {
+        // تنفيذ الكود عند إرسال النموذج
+    }
+
+}

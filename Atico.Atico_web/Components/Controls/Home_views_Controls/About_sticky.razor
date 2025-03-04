@@ -1,0 +1,67 @@
+@inject IJSRuntime JSRuntime
+  <div class="sticky-About_wrap">
+    <div class="sticky-About row">
+      <div class="sticky-About_element col-8" style="border-radius: 33.2354em; height: 79.8351vh; width: 38.2772vw;">
+        <img id="dynamicImage" src="Companies\\Atico.jpg" loading="lazy" alt="" sizes="100vw" srcset="cirecal_img.png 500w, cirecal_img.png 800w, cirecal_img.png 1080w" class="sticky-About_img">
+      </div>
+      <div class="col-4 flex-column">
+        @foreach(var com in _Companies){
+            <h1 data-name="@com.Title" data-img-path ="@com.Img_Path">@com.Title</h1>
+        }
+      </div>
+    </div>
+  </div>
+ <script>
+      document.addEventListener("DOMContentLoaded", () => {
+    const stickyWrap = document.querySelector(".sticky-About_wrap");
+    const headings = stickyWrap.querySelectorAll(".sticky-About h1");
+    const dynamicImage = document.getElementById("dynamicImage"); // عنصر الصورة الديناميكية
+
+    // إجمالي ارتفاع القسم
+    const wrapHeight = stickyWrap.offsetHeight;
+    // عدد العناوين
+    const headingsCount = headings.length;
+
+    window.addEventListener("scroll", () => {
+      // موضع التمرير العمودي بالنسبة إلى العنصر
+      const wrapTop = stickyWrap.getBoundingClientRect().top;
+      const wrapBottom = stickyWrap.getBoundingClientRect().bottom;
+
+      // تحقق إذا كان التمرير داخل العنصر
+      if (wrapTop <= window.innerHeight && wrapBottom >= 0) {
+        // حساب نسبة التمرير داخل العنصر
+        const progress = Math.min(Math.max((window.innerHeight - wrapTop) / wrapHeight, 0), 1);
+
+        // حساب العنصر الذي يجب أن يكون مميزًا
+        const focusedIndex = Math.floor(progress * headingsCount);
+        $('sticky-About_img').add()
+        // إزالة الكلاس "Foucsed" من جميع العناوين
+        headings.forEach((heading, index) => {
+          if (index === focusedIndex) {
+            heading.classList.add("Foucsed");
+             const imgPath = h1.getAttribute("data-img-path");
+            dynamicImage.setAttribute("src", imgPath);
+          } else {
+            heading.classList.remove("Foucsed");
+          }
+        });
+      }
+    });
+  });
+  </script>
+ 
+
+  @code{
+    public List<Company> _Companies {get; set;} = new();
+    protected override  void OnParametersSet(){
+        _Companies = new(){
+          new(1,"ATICO","Companies\\Atico.jpg"),
+          new(2,"ATICO POWER","Companies\\ATICO POWER.jpg"),
+          new(3,"ATICO PHARMA","Companies\\ATICO PHARMA.jpg"),
+          new(4,"ATICO FOOD","Companies\\ATICO FOOD.jpg"),
+          new(5,"ATICO AGRICULTURE","Companies\\ATICO AGRICULTURE.jpg")
+        };
+
+    }
+  }   
+

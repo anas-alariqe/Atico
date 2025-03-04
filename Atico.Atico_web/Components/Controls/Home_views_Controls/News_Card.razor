@@ -1,0 +1,32 @@
+
+ <div class="News_Card clickible col-3 col-md-3 col-sm-4 col-xs-6 p-3 align-content-center justify-content-center @Class_Added"  >
+    <div class="News_Container px-2 py-1" >
+        <img class=" img-thumbnail w-100 h-auto border-0  bg-transparent border-0" src="@Img_Path" alt="" sizes="13rem auto" style=" border-radius: 30px;" >
+        <div class="News_description" style=" margin-bottom: 3rem !important;   justify-items: start;">
+            <h2 class="News_Title title  align-self-center justify-self-start " style="
+                font-size: medium;
+                text-align: left;
+                margin-left: 1rem;
+                font-family: 'Inter';">@Title</h2>
+            <a href="/news/@Id" class="News_Link" >
+                know more about this news
+            </a>
+        </div>
+    </div>
+</div>
+
+
+@code{
+    [Parameter]
+    public int Id {get; set;}
+    [Parameter]
+    public string Title {get; set;} = string.Empty;
+    [Parameter]
+    public string Description {get; set;} = string.Empty;
+    [Parameter]
+    public string Img_Path {get; set;} = string.Empty;
+    [Parameter]
+    public string Class_Added {get; set;} = string.Empty;
+
+    
+}

@@ -1,0 +1,48 @@
+@using Atico_Data.Repositories
+@using Atico_Services.Services.Plugins
+@using Atico_Shared
+@using Atico_Shared.Interfaces
+@using Microsoft.AspNetCore.Mvc
+@inject IViewData_Repository ViewData_Repository
+@inject IViewData_set ViewData
+
+
+<div class="w-100 gap-3 d-flex flex-wrap row h-auto justify-content-start align-content-center align-items-center">
+    @foreach(var itm in Items){
+        <a class=" col-xs-5 col-sm-4 col-md-3 col-lg-2 col-2 p-2 clickible" @onclick="async() => await SelectItem(itm)" >
+            @if((itm is Service_Section) || (itm is Product_Section) ){
+                <Item_Card Item="itm"  IsActive="@(Active_Item_id == itm.ID)"></Item_Card>
+            }
+            else{
+                <Item_Select_Card Item="itm"  IsActive="@(Active_Item_id == itm.ID)"></Item_Select_Card>
+            }
+        </a>
+        
+    }
+
+</div>
+@code{
+    
+    [Parameter]
+    public EventCallback<IViewData_set> OnItemSelected { get; set; }
+    private string Active_Item_id {get; set;} = "1";
+
+    [Parameter]
+    public IViewData_set Active_Item {get; set;} =new Service_Section();
+   
+    [Parameter]
+    public List<IViewData_set> Items{get; set;} = new();
+    protected override void OnInitialized(){
+        if(Items.Count >0 ){
+            Active_Item_id =  Items[0]?.ID ?? "-1";
+            Active_Item = Items[0] ?? new Service_Section();
+        }
+    }
+    
+    private async Task SelectItem(IViewData_set item)
+    {
+        Active_Item = item;
+        Active_Item_id = item.ID;
+        await OnItemSelected.InvokeAsync(item);
+    }
+}

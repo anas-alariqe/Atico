@@ -1,0 +1,28 @@
+﻿@using Atico_Shared;
+@code {
+    [Parameter] public int ProductId { get; set; }
+
+    private Product? product;
+
+    protected override async Task OnInitializedAsync()
+    {
+        // جلب بيانات المنتج باستخدام ProductId
+        //product = await ProductService.GetProductById(ProductId);
+        // Temp 
+        product = new() {Id = ProductId,Title = "Oil",Description= "Cars Oil 10W30 ",Price=2400};
+        await Task.Delay(1);
+    }
+}
+
+<h3>Product Details</h3>
+@if (product != null)
+{
+    <p>@product.Id</p>
+    <p>@product.Title</p>
+    <p>@product.Description</p>
+    <p>@product.Price</p>
+}
+else
+{
+    <p>Loading...</p>
+}

@@ -1,0 +1,268 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Ateco\\Atico\\Atico.Atico_web\\Atico.Atico_web.csproj": {}
+  },
+  "projects": {
+    "D:\\Ateco\\Atico\\Atico.Atico_web\\Atico.Atico_web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Ateco\\Atico\\Atico.Atico_web\\Atico.Atico_web.csproj",
+        "projectName": "Atico.Atico_web",
+        "projectPath": "D:\\Ateco\\Atico\\Atico.Atico_web\\Atico.Atico_web.csproj",
+        "packagesPath": "C:\\Users\\Anas Alariqe\\.nuget\\packages\\",
+        "outputPath": "D:\\Ateco\\Atico\\Atico.Atico_web\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Anas Alariqe\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Ateco\\Atico\\Atico_Data\\Atico_Data.csproj": {
+                "projectPath": "D:\\Ateco\\Atico\\Atico_Data\\Atico_Data.csproj"
+              },
+              "D:\\Ateco\\Atico\\Atico_Services\\Atico_Services.csproj": {
+                "projectPath": "D:\\Ateco\\Atico\\Atico_Services\\Atico_Services.csproj"
+              },
+              "D:\\Ateco\\Atico\\Atico_Shared\\Atico_Shared.csproj": {
+                "projectPath": "D:\\Ateco\\Atico\\Atico_Shared\\Atico_Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Ateco\\Atico\\Atico_Data\\Atico_Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Ateco\\Atico\\Atico_Data\\Atico_Data.csproj",
+        "projectName": "Atico_Data",
+        "projectPath": "D:\\Ateco\\Atico\\Atico_Data\\Atico_Data.csproj",
+        "packagesPath": "C:\\Users\\Anas Alariqe\\.nuget\\packages\\",
+        "outputPath": "D:\\Ateco\\Atico\\Atico_Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Anas Alariqe\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Ateco\\Atico\\Atico_Shared\\Atico_Shared.csproj": {
+                "projectPath": "D:\\Ateco\\Atico\\Atico_Shared\\Atico_Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Ateco\\Atico\\Atico_Services\\Atico_Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Ateco\\Atico\\Atico_Services\\Atico_Services.csproj",
+        "projectName": "Atico_Services",
+        "projectPath": "D:\\Ateco\\Atico\\Atico_Services\\Atico_Services.csproj",
+        "packagesPath": "C:\\Users\\Anas Alariqe\\.nuget\\packages\\",
+        "outputPath": "D:\\Ateco\\Atico\\Atico_Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Anas Alariqe\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Ateco\\Atico\\Atico_Data\\Atico_Data.csproj": {
+                "projectPath": "D:\\Ateco\\Atico\\Atico_Data\\Atico_Data.csproj"
+              },
+              "D:\\Ateco\\Atico\\Atico_Shared\\Atico_Shared.csproj": {
+                "projectPath": "D:\\Ateco\\Atico\\Atico_Shared\\Atico_Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Ateco\\Atico\\Atico_Shared\\Atico_Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Ateco\\Atico\\Atico_Shared\\Atico_Shared.csproj",
+        "projectName": "Atico_Shared",
+        "projectPath": "D:\\Ateco\\Atico\\Atico_Shared\\Atico_Shared.csproj",
+        "packagesPath": "C:\\Users\\Anas Alariqe\\.nuget\\packages\\",
+        "outputPath": "D:\\Ateco\\Atico\\Atico_Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Anas Alariqe\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
